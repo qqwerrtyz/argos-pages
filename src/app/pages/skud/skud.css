@@ -1,0 +1,845 @@
+.skudWrapper {
+    padding: 20px;
+    color: #34393A;
+}
+
+
+.uslugiHeadline {
+    font-size: 40px;
+    color: #facb0c;
+    font-weight: 600;
+}
+
+.skudTitleWrapper {
+    background-image: url("/images/skud/bgSKUD.jpg");
+    background-size: cover;         /* масштабировать, чтобы покрыть блок */
+    background-position: center;    /* центрировать изображение */
+    background-repeat: no-repeat;   /* не повторять */
+
+    padding: 100px 0 60px 0;
+
+}
+
+.skudTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 20px;
+
+    background-color: rgba(255, 255, 255, .7);
+
+}
+
+.skudTitleHeadline {
+    padding: 10px 20px;
+
+    border-radius: 20px;
+
+    color: #efbd19;
+    font-size: 56px;
+    text-align: center;
+
+}
+
+.skudTitleDesc {
+    width: 60%;
+
+    padding: 10px 30px;
+
+    font-size: 22px;
+    color: #c8a530;
+    font-weight: 600;
+
+    border-radius: 10px;
+
+    
+
+    text-align: center;
+}
+
+.skudTitleBtns {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+
+}
+
+.skudTitleBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 10px;
+    padding: 10px 0;
+
+    border: 2px dashed #FED03E;
+    border-radius: 15px;
+
+    font-size: 20px;
+    color: #34393A;
+    text-decoration: none;
+
+    transition: .3s all;
+
+}
+
+.skudTitleBtnTG {
+    width: 60%;
+    background-color: #FED03E;
+    transition: .3s all;
+
+}
+
+.skudTitleBtnTG:hover {
+    background-color: #fcf1cf;
+}
+
+.skudTitleBtnPhone {
+    width: 35%;
+    background-color: #fff;
+    transition: .3s all;
+
+}
+
+.skudTitleBtnPhone:hover {
+    background-color: #FED03E;
+}
+
+.skudTitleBtnIcon {
+    width: 30px;
+    margin: 0 5px 0 10px;
+}
+
+.skudTitleBtnIconPhone,
+.skudTitleBtnIconTG {
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.skudTitleBtnIconPhone {
+    background-color: #fff;
+    margin: 0 10px 0 0;
+
+}
+
+.skudTitleBtnIconTG {
+    background-color: #FED03E;
+}
+
+.skudAboutUsWrapper {
+    margin-top: 50px;
+}
+
+.skudAboutUsColumns {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.skudAboutUsColumn1 {
+    width: 55%;
+
+
+}
+
+.skudAboutUsAdventegesWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skudAboutUsAdventege {
+    width: 200px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.skudAboutUsIcon {
+    width: 80px;
+
+    margin-bottom: 20px;
+
+}
+
+.skudAboutUsTitle {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.skudAboutUsColumn2 {
+    width: 40%;
+
+}
+
+.skudAboutUsShorDesc {
+    margin: 0 0 15px 0;
+
+    font-size: 20px;
+}
+
+.skudAboutUsShorDescListItem {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.skudComponentsSystemWrapper {
+    margin-top: 50px;
+}
+
+.skudComponentsItems {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.skudComponentsItem {
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px 0;
+
+    border: 2px solid #FED03E;
+    border-radius: 20px;
+}
+
+.skudComponentsItemIcon {
+    margin-bottom: 15px;
+}
+
+.skudComponentsItemTitle {
+    font-size: 20px;
+    color: #34393A;
+    font-weight: 600;
+}
+
+.skudPrice {
+    margin-top: 50px;
+}
+
+.skudPriceWrapper {
+    display: flex;
+    align-items: flex-end;
+}
+
+.skudPriceColumn1 {
+    width: 50%;
+}
+
+.skudPriceColumn2 {
+    width: 48%;
+}
+
+.skudPriceTarifInfo {
+    min-height: 240px;
+}
+
+.skudPriceTarifTitle {
+
+    font-size: 20px;
+}
+
+.skudPriceTarifPrice {
+    margin: 0;
+
+    font-size: 32px;
+}
+
+.skudPriceTarifs {
+    display: flex;
+
+    margin-top: 30px;
+}
+
+.skudPriceTarif {
+    margin: 0 10px;
+    padding: 15px;
+
+    border-radius: 20px;
+    border: 1px solid #D7D7D7;
+
+    box-sizing: border-box;
+
+    width: 50%;
+}
+
+.skudPriceTarifDescWrapper {
+    margin: 10px 0;
+}
+
+.skudPriceTarifDescItem {
+    display: flex;
+    align-items: center;
+}
+
+.skudPriceTarifDescItemCheck {
+    width: 18px;
+
+    margin-right: 10px;
+}
+
+.skudPriceTarifDescItemTitle {
+    font-size: 16px;
+
+    margin: 4px 0;
+}
+
+.skudPriceTarifBtns {
+    display: flex;
+    flex-direction: column;
+}
+
+.skudPriceTarifBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 5px 0;
+    padding: 6px 0;
+
+    font-size: 20px;
+    text-decoration: none;
+    color: #34393A;
+
+    border-radius: 15px;
+    border: 3px dashed #FED03E;
+}
+
+.skudPriceTarifBtnTG {
+    background-color: #FED03E;
+
+    transition: .3s all;
+
+}
+
+.skudPriceTarifBtnTG:hover {
+    background-color: #fcf1cf;
+}
+
+.skudPriceTarifBtnPhone {
+    transition: .3s all;
+}
+
+.skudPriceTarifBtnPhone:hover {
+    background-color: #fbd868;
+}
+
+.skudPriceTarifBtnIcon {
+    width: 25px;
+}
+
+.skudPriceTarifBtnIconTG {
+    margin: 0 5px 0 8px;
+    padding: 2px;
+
+    background-color: #FED03E;
+
+    border-radius: 5px;
+
+
+}
+.skudPriceTarifBtnIconPhone {
+    margin-right: 5px;
+    padding: 2px;
+
+    border-radius: 5px;
+
+    background-color: #fff;
+
+    
+}
+
+.skudPriceTarifBtnIconPhone {
+    background-color: #fff;
+}
+
+
+.skudPriceServiceWrapper {
+    box-sizing: border-box;
+
+    padding: 15px;
+    
+    border-radius: 20px;
+    border: 1px solid #FED03E;
+
+    background-color: #FFFCEF;
+}
+
+
+.skudPriceColumn2 {
+    height: 100%;
+}
+
+.skudPriceServiceHeadlineWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.skudPriceServicePrice {
+    font-size: 32px;
+}
+
+.skudPriceServiceHeadline {
+    font-size: 22px;
+}
+
+.skudPriceServiceDescItems {
+    margin: 10px 0;
+}
+
+.skudPriceServiceDescItemWrapper {
+    display: flex;
+    align-items: center;
+
+    margin: 5px 0;
+}
+
+.skudPriceServiceDescItemCheck {
+    width: 20px;
+
+    margin-right: 10px;
+}
+
+.skudPriceServiceDescItem {
+    font-size: 16px;
+}
+
+
+
+.intiteTGWrapper {
+    margin-top: 70px;
+
+    border-radius: 25px;
+
+    background-color: #FFD517;
+}
+
+.intiteTG {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+
+    padding: 30px;
+}
+
+.intiteTGHeadlineWrapper {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.intiteTGHeadline {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.inviteTGDescr {
+    font-size: 20px;
+    width: 60%;
+}
+
+.intiteTGScanWrapper {
+    display: flex;
+}
+
+.inviteTGLinkWrapper {
+    width: 150px;
+
+    margin-right: 10px;
+    
+
+ 
+}
+
+.inviteTGLink {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+
+    color: #cea70d;
+
+    background-color: #fff;
+
+    border: 2px dashed #fff;
+    border-radius: 15px;
+
+    transition: .3s all;
+}
+
+.inviteTGLink:hover {
+    background-color: #eecc45;
+    color: #fff;
+}
+
+.intiteTGQR {
+    width: 250px;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .skudTitleHeadline {
+        width: 70%;
+
+        font-size: 32px;
+
+        margin: 0;
+    }
+
+    .skudTitleDesc {
+        width: 80%;
+        
+        font-size: 16px;
+    }
+
+    .skudTitleBtns {
+        width: 60%;
+    }
+    .skudTitleBtn {
+        font-size: 18px;
+
+        padding: 5px 0;
+    }
+
+    .skudTitleBtnIcon {
+        width: 25px;
+    }
+
+    .skudAboutUsWrapper {
+        margin-top: 30px;
+    }
+
+    .skudAboutUsAdventege {
+        width: 130px;
+    }
+
+    .skudAboutUsIcon {
+        width: 60px;
+    }
+
+    .skudAboutUsShorDesc {
+        font-size: 18px;
+    }
+
+    .skudAboutUsShorDescListItem {
+        font-size: 16px;
+    }
+
+    .skudComponentsItem {
+        width: 160px;
+    }
+
+    .skudComponentsItemIcon {
+        width: 70px;
+    }
+
+    .skudComponentsItemTitle {
+        font-size: 18px;
+    }
+
+    .skudPriceWrapper {
+        flex-direction: column;
+    }
+
+    .skudPriceColumn1,
+    .skudPriceColumn2 {
+        width: 100%;
+    }
+
+    .skudPriceColumn2 {
+        margin-top: 20px;
+    }
+
+    .skudPriceTarifTitle {
+        font-size: 18px;
+    }
+
+    .skudPriceTarifPrice {
+        font-size: 28px;
+    }
+
+    .skudPriceTarifDescItemCheck {
+        width: 16px;
+    }
+
+    .skudPriceTarifBtn  {
+        font-size: 18px;
+    }
+
+    .intiteTGScanWrapper {
+        flex-direction: column;
+    }
+
+    .intiteTGHeadline {
+        font-size: 34px;
+    }
+
+    .inviteTGDescr {
+        width: 90%;
+    }
+
+    .inviteTGLinkWrapper{
+        order: 1;
+        width: 200px;
+        
+    }
+
+    .inviteTGLink {
+        font-size: 22px;
+    }
+    .intiteTGQRWrapper{
+        order: 0;
+    } 
+    
+    .intiteTGQR {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .uslugiHeadlineWrapper {
+        margin-bottom: -10px;
+        text-align: center;
+    }
+
+    .uslugiHeadline {
+        font-size: 30px;
+    }
+
+    .skudWrapper {
+        padding: 10px;
+    }
+
+    .skudTitleHeadline {
+        width: 90%;
+
+        padding: 10px 0;
+
+        font-size: 30px;
+    }
+
+    .skudTitleDesc {
+        width: 75%;
+
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .skudTitleBtns {
+        width: 100%;
+    }
+
+    .skudTitleBtn {
+        font-size: 16px;
+    }
+
+    .skudTitleBtnTG {
+        width: 55%;
+    }
+
+    .skudTitleBtnPhone {
+        width: 40%;
+    }
+
+    .skudTitleBtnIcon {
+        width: 20px;
+    }
+
+    .skudTitleBtnIconPhone {
+        margin: 0 10px 0 0;
+    }
+
+    .skudAboutUsWrapper {
+        margin-top: 20px;
+    }
+
+    .skudAboutUsColumns {
+        flex-direction: column;
+    }
+
+    .skudAboutUsColumn1,
+    .skudAboutUsColumn2 {
+        width: 100%;
+    }
+
+    .skudAboutUsColumn2 {
+        margin-top: 20px;
+    }
+
+    .skudAboutUsAdventege {
+        width: auto;
+    }
+
+    .skudAboutUsIcon {
+        width: 60px;
+        margin-bottom: 10px;
+    }
+
+    .skudAboutUsTitle {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .skudAboutUsShorDesc {
+        font-size: 18px;
+        margin: 0 0 5px 0;
+    }
+
+    .skudAboutUsShorDescListItem {
+        font-size: 14px;
+    }
+
+    .skudComponentsSystemWrapper {
+        margin-top: 20px;
+    }
+
+    .skudComponentsItems {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .skudComponentsItem {
+        width: 160px;
+
+        margin: 10px 0;
+    }
+
+    .skudComponentsItemIcon {
+        width: 60px;
+
+        margin-bottom: 10px;
+    }
+
+    .skudComponentsItemTitle {
+        font-size: 16px;
+    }
+
+    .skudPriceWrapper {
+        flex-direction: column;
+    }
+
+    .skudPriceColumn1,
+    .skudPriceColumn2 {
+        width: 100%;
+    }
+
+    .skudPriceTarifs {
+        flex-direction: column;
+    }
+
+    .skudPriceTarif {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .skudPriceTarifTitle {
+        font-size: 18px;
+    }
+
+    .skudPriceTarifPrice {
+        font-size: 26px;
+    }
+
+    .skudPriceTarifDescItemCheck {
+        width: 16px;
+
+        margin-right: 5px;
+    }
+
+    .skudPriceTarifDescItemTitle {
+        margin: 2px 0;
+    }
+
+    .skudPriceTarifInfo {
+        min-height: 215px;
+    }
+
+    .skudPriceTarifBtn {
+        font-size: 16px;
+
+        padding: 4px 0;
+    }
+
+    .skudPriceTarifBtnIcon {
+        width: 20px;
+    }
+
+    .skudPriceServiceHeadline {
+        font-size: 20px;
+    }
+
+    .skudPriceServicePrice {
+        font-size: 26px;
+    }
+
+    .skudPriceServiceDescItemCheck {
+        width: 16px;
+    }
+
+    .intiteTGHeadline {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .inviteTGDescr {
+        width: 100%;
+        font-size: 16px;
+
+        padding:  0;
+        margin: 0;
+    }
+
+    .intiteTG {
+        flex-direction: column;
+        text-align: center;
+
+        padding: 20px 10px;
+    }
+
+    .intiteTGScanWrapper {
+        flex-direction: column;
+    }
+
+    .intiteTGQR {
+        width: 150px;
+    }
+
+    .inviteTGLinkWrapper {
+        width: 150px;
+        order: 1;
+        margin: 0;
+
+    }
+
+    .inviteTGLink {
+        font-size: 16px;
+        border-radius: 6px;
+
+    }
+
+    .intiteTGQRWrapper {
+        order: 0;
+    }
+    
+}

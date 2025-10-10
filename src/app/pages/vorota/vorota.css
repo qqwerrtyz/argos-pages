@@ -1,0 +1,646 @@
+.vorotaWrapper {
+    padding: 20px;
+    color: #34393A;
+}
+
+.vorotaTitleWrapper {
+    margin-bottom: 50px;
+}
+
+.vorotaTitle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vorotaTitleColumn1 {
+    width: 40%;
+}
+
+.vorotaTitleHeadline {
+    margin: 0;
+
+    font-size: 60px;
+    line-height: 90%;
+}
+
+.vorotaTitleSubtitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.vorotaTitleLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60%;
+
+    margin: 60px 0 20px 0;
+    padding: 6px 0;
+
+    font-size: 18px;
+    text-decoration: none;
+    color: #34393A;
+    font-weight: 600;
+
+    background-color: #FED03E;
+
+    border: 3px dashed #FED03E;
+    border-radius: 15px;
+
+    transition: .3s all;
+}
+
+.vorotaTitleLink:hover {
+    background-color: #f7eac3;
+}
+
+.vorotaTitleIcon {
+    width: 30px;
+
+    margin-right: 15px;
+    padding: 4px;
+
+    border-radius: 6px;
+
+    background-color: #FED03E;
+}
+
+.vorotaTitleAdventeges {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vorotaTitleAdventege {
+    display: flex;
+    align-items: center;
+
+    margin: 5px 10px 5px 0;
+}
+
+.vorotaTitleAdventegeDote {
+    width: 8px;
+    height: 8px;
+
+    margin-right: 5px;
+
+    border-radius: 50%;
+
+    background-color: #FED03E;
+}
+
+.vorotaTitleAdventegeTitle {
+    font-size: 20px;
+}
+
+.vorotaTitleColumn2 {
+    width: 50%;
+}
+
+.vorotaTitleImagePK {
+    width: 100%;
+}
+
+.vorotaTitleImagePlanshet,
+.vorotaTitleImagePhone {
+    display: none;
+}
+
+.uslugiAboutUsWrapper {
+    margin-top: 30px;
+}
+
+.uslugiAboutUs {
+    width: 100%;
+}
+
+.uslugiHeadlineWrapper {
+}
+
+.uslugiHeadline {
+    font-size: 40px;
+    color: #facb0c;
+    font-weight: 600;
+}
+
+.uslugiAboutUsDesc {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.vorotaAdvantages {
+    width: 60%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.vorotaAdvantage {
+    display: flex;
+    align-items: center;
+}
+
+.vorotaAdvantageIcon {
+    width: 80px;
+
+    margin-right: 15px;
+}
+
+.vorotaAdvantageText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.vorotaAdvantageTitle {
+    font-size: 24px;
+}
+
+.vorotaServicesWrapper {
+    margin-top: 50px;
+}
+
+.vorotaServices {
+    display: flex;
+
+    margin-top: 30px;
+}
+
+.vorotaServicesItems {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.vorotaServicesItem {
+    width: 250px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px;
+    padding: 10px  ;
+
+    background-color: #F9F9F9;
+    border: 2px solid #F2F2F2;
+    border-radius: 15px;
+
+    
+}
+
+.vorotaServicesImageAndTitle {
+    display: flex;
+    align-items: center;
+
+}
+
+.vorotaServicesImage {
+    width: 50px;
+
+    margin-right: 10px;
+}
+
+.vorotaServicesTitle {
+    font-size: 18px;
+}
+
+.vorotaServicesDesc {
+    font-size: 16px;
+
+    height: 40px;
+
+    margin: 10px 0 20px 0;
+}
+
+.vorotaServicesLink {
+    font-size: 18px;
+    font-weight: 600;
+    color: #facb0c;
+    text-decoration: none;
+}
+
+.vorotaServicesImageWrapper {
+    width: 55%;
+}
+
+.vorotaServicesBigImage {
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+
+.intiteTGWrapper {
+    margin-top: 70px;
+
+    border-radius: 25px;
+
+    background-color: #FFD517;
+}
+
+.intiteTG {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+
+    padding: 30px;
+}
+
+.intiteTGHeadlineWrapper {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.intiteTGHeadline {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.inviteTGDescr {
+    font-size: 20px;
+    width: 60%;
+}
+
+.intiteTGScanWrapper {
+    display: flex;
+}
+
+.inviteTGLinkWrapper {
+    width: 150px;
+
+    margin-right: 10px;
+    
+
+ 
+}
+
+.inviteTGLink {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+
+    color: #cea70d;
+
+    background-color: #fff;
+
+    border: 2px dashed #fff;
+    border-radius: 15px;
+
+    transition: .3s all;
+}
+
+.inviteTGLink:hover {
+    background-color: #eecc45;
+    color: #fff;
+}
+
+.intiteTGQR {
+    width: 250px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .vorotaTitleImagePlanshet {
+        display: inline;
+        width: 100%;
+
+        border-radius: 10px;
+    }
+
+    .vorotaTitleImagePhone,
+    .vorotaTitleImagePK {
+        display: none;
+    }
+
+    .vorotaTitleHeadline {
+        font-size: 40px;
+    }
+
+    .vorotaTitleSubtitle {
+        font-size: 20px;
+    }
+
+    .vorotaTitleAdventeges {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .vorotaTitleLink {
+        width: 100%;
+
+        margin: 40px 0 20px 0;
+    }
+
+    .vorotaTitleColumn2 {
+        width: 40%;
+    }
+
+    .uslugiAboutUsDesc {
+        font-size: 20px;
+    }
+
+    .vorotaAdvantages {
+        width: 80%;
+    }
+
+    .vorotaAdvantage {
+        margin-right: 10px;
+    }
+
+    .vorotaAdvantageIcon {
+        width: 50px;
+        margin-right: 5px;
+    }
+
+    .vorotaAdvantageTitle {
+        font-size: 22px;
+    }
+
+    .vorotaServices {
+        flex-direction: column;
+
+    }
+
+    .vorotaServicesItems {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .vorotaServicesItem {
+        width: 300px;
+    }
+
+    .vorotaServicesImage {
+        width: 50px;
+    }
+
+    .vorotaServicesTitle {
+        font-size: 20px;
+    }
+
+    .vorotaServicesDesc {
+        font-size: 18px;
+    }
+
+    .vorotaServicesLink {
+        font-size: 20px;
+    }
+
+    .vorotaServicesImageWrapper {
+        width: 100%;
+
+        margin-top: 15px;
+    }
+
+    .intiteTGScanWrapper {
+        flex-direction: column;
+    }
+
+    .intiteTGHeadline {
+        font-size: 34px;
+    }
+
+    .inviteTGDescr {
+        width: 90%;
+    }
+
+    .inviteTGLinkWrapper{
+        order: 1;
+        width: 200px;
+        
+    }
+
+    .inviteTGLink {
+        font-size: 22px;
+    }
+    .intiteTGQRWrapper{
+        order: 0;
+    } 
+    
+    .intiteTGQR {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .vorotaTitle {
+        flex-direction: column;
+    }
+
+    .vorotaTitleColumn1,
+    .vorotaTitleColumn2 {
+        width: 100%;
+    }
+
+    .vorotaTitleHeadline {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .vorotaTitleSubtitle {
+        font-size: 18px;
+        text-align: center;
+
+        margin: 10px;
+    }
+
+    .vorotaTitleLink {
+        width: 100%;
+        font-size: 16px;
+
+        margin: 20px 0 10px 0;
+        padding: 4px 0;
+    }
+
+    .vorotaTitleIcon {
+        width: 20px;
+
+        margin-right: 4px;
+    }
+
+    .vorotaTitleAdventeges {
+        width: 100%;
+
+        justify-content: center;
+    }
+
+    .vorotaTitleImageWrapper {
+        margin-top: 10px;
+    }
+
+    .vorotaTitleImagePhone {
+        display: inline;
+        width: 100%;
+
+        border-radius: 10px;
+    }
+
+    .vorotaTitleImagePlanshet,
+    .vorotaTitleImagePK {
+        display: none;
+    }
+
+    .uslugiAboutUs {
+        width: 100%;
+        text-align: center;
+    }
+
+    .uslugiHeadlineWrapper {
+        margin-bottom: -10px;
+        text-align: center;
+    }
+
+    .uslugiHeadline {
+        font-size: 30px;
+    }
+
+    .uslugiAboutUsDesc {
+        font-size: 16px;
+    }
+
+    .uslugiAboutUsDesc {
+        font-size: 18px;
+    }
+
+    .vorotaAdvantages {
+        width: 100%;
+
+        flex-direction: column;
+    }
+
+    .vorotaAdvantage {
+        flex-direction: column;
+
+        margin: 10px 0;
+    }
+
+    .vorotaAdvantageIcon {
+        width: 60px;
+
+        margin: 0 0 5px 0;
+    }
+
+    .vorotaAdvantageText {
+        align-items: center;
+    }
+
+    .vorotaAdvantageTitle {
+        font-size: 20px;
+    }
+
+    .vorotaServicesWrapper {
+        margin-top: 30px;
+    }
+
+    .vorotaServices {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .vorotaServicesItems {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .vorotaServicesItem {
+        width: 135px;
+
+        padding: 10px 5px;
+
+        margin: 5px;
+    }
+
+    .vorotaServicesImageAndTitle {
+        flex-direction: column;
+    }
+
+    .vorotaServicesImage {
+        margin: 0;
+    }
+
+    .vorotaServicesTitle {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .vorotaServicesImageAndTitle {
+        min-height: 100px;
+    }
+
+    .vorotaServicesDesc {
+        font-size: 14px;
+        text-align: center;
+        height: auto;
+    }
+    
+    .vorotaServicesLink {
+        text-align: center;
+    }
+
+    .vorotaServicesImageWrapper {
+        width: 100%;
+    }
+
+
+     .intiteTGHeadline {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .inviteTGDescr {
+        width: 100%;
+        font-size: 16px;
+
+        padding:  0;
+        margin: 0;
+    }
+
+    .intiteTG {
+        flex-direction: column;
+        text-align: center;
+
+        padding: 20px 10px;
+    }
+
+    .intiteTGScanWrapper {
+        flex-direction: column;
+    }
+
+    .intiteTGQR {
+        width: 150px;
+    }
+
+    .inviteTGLinkWrapper {
+        width: 150px;
+        order: 1;
+        margin: 0;
+
+    }
+
+    .inviteTGLink {
+        font-size: 16px;
+        border-radius: 6px;
+
+    }
+
+    .intiteTGQRWrapper {
+        order: 0;
+    }
+}

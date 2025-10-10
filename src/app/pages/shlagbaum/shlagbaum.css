@@ -1,0 +1,863 @@
+.uslugiHeadline {
+    font-size: 40px;
+    color: #facb0c;
+    font-weight: 600;
+}
+
+.shlagbaumWrapper {
+    padding: 20px;
+    color: #34393A;
+}
+
+
+.shlagbaumTitle {
+    display: flex;
+}
+
+.shlagbaumTitleColumn1 {
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shlagbaumTitleHeadline {
+    font-size: 50px;
+    line-height: 90%;
+}
+
+.shlagbaumTitleDesc {
+    font-size: 20px;
+}
+
+.shlagbaumTitleButtons {
+    width: 60%;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.shlagbaumTitleLink {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px 0;
+
+    font-size: 20px;
+    color: #34393A;
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: .3s all;
+
+}
+
+.shlagbaumTitleLinkPhone {
+    width: 35%;
+    border: 2px dashed #FFD517;
+
+}
+.shlagbaumTitleLinkTG {
+    width: 60%;
+    background-color: #FFD517;
+    color: #34393A;
+    font-weight: 500;
+
+    border: 2px dashed #FFD517;
+}
+
+.shlagbaumTitleLinkTG:hover {
+    background-color: #FFF7D5;
+}
+
+.shlagbaumTitleLinkPhone:hover {
+    background-color: #FFE25C;
+}
+
+.shlagbaumTitleIcon {
+    width: 30px;
+
+    padding: 3px;
+    margin-right: 15px;
+
+    border-radius: 5px;
+
+    
+}
+
+.shlagbaumTitleIconTG {
+    background-color: #FFD517;
+}
+
+.shlagbaumTitleIconPhone {
+    background-color: #fff;
+}
+
+.shlagbaumTitleIconsWrapper {
+    margin-top: 40px;
+}
+
+.shlagbaumTitleIcons {
+    display: flex;
+}
+
+.shlagbaumTitleIconItem {
+    display: flex;
+    align-items: center;
+
+    margin-right: 20px;
+}
+
+.shlagbaumTitleIconText {
+    display: flex;
+    flex-direction: column;
+}
+
+.shlagbaumTitleIconHeadline {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.shlagbaumTitleIconSubheadline {
+    font-size: 18px;
+}
+
+.shlagbaumTitleAdventegesIcon {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.shlagbaumTitleColumn2 {
+    width: 35%;
+}
+.shlagbaumTitleImage {
+    width: 100%;
+}
+
+
+.shlagbaumAboutUsWrapper {
+    margin-top: 60px;
+}
+
+
+.shlagbaumAboutUsDesc {
+    font-size: 24px;
+}
+
+
+.shlagbaumAboutUsIconsWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.shlagbaumAboutUsIcons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shlagbaumAboutUsIconItem {
+    width: 350px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9F8F9;
+
+    margin: 0 10px;
+    padding: 15px;
+
+    border-radius: 15px;
+}
+
+.shlagbaumAboutUsIcon {
+    width: 55px;
+    margin-right: 10px;
+}
+
+.shlagbaumAboutUsIconText {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.shlagbaumAboutUsIconTitle {
+    font-size: 24px;
+}
+
+.shlagbaumAboutUsIconDesc {
+    margin: 0;
+
+    font-size: 18px;
+}
+
+.shlagbaumHowWeWorkWrapper {
+    margin: 60px 0;
+}
+
+.shlagbaumHowWeWork {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.shlagbaumHowWeWorkColumn1 {
+    width: 45%;
+}
+
+.shlagbaumHowWeWorkRow {
+    display: flex;
+
+    margin-top: 10px;
+}
+
+.shlagbaumHowWeWorkRowFirst {
+    margin-top: 40px;
+}
+
+.shlagbaumHowWeWorkItem {
+    
+    width: 250px;
+
+    margin: 10px;
+    padding: 20px 15px;
+
+    border-radius: 15px;
+
+    background-color: #F9F8F9;
+   
+
+}
+
+.shlagbaumHowWeWorkIconAndTitle {
+    display: flex;
+    align-items: center;
+}
+
+.shlagbaumHowWeWorkIcon {
+    width: 55px;
+
+    margin-right: 10px;
+}
+
+.shlagbaumHowWeWorkTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.shlagbaumHowWeWorkSubtitle {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+
+}
+
+.shlagbaumHowWeWorkSubtitle a {
+    text-decoration: none;
+    color: #34393A;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #facb0c;
+    
+    transition: .3s all;
+}
+
+.shlagbaumHowWeWorkSubtitle a:hover {
+    background-color: rgba(255, 226, 92, .3);
+}
+
+
+.shlagbaumHowWeWorkColumn2 {
+    width: 45%;
+
+}
+
+.shlagbaumHowWeWorkImage {
+    width: 100%;
+
+    border-radius: 15px;
+}
+
+.shlagbaumHowWeWorkImageVertical {
+    display: none;
+}
+
+.shlagbaumWhatNeededItem {
+    display: flex;
+    align-items: center;
+}
+    
+
+.shlagbaumWhatNeededWrapper {
+    margin-top: 40px;
+}
+
+.shlagbaumWhatNeededColumns {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 20px;
+    margin-top: 30px;
+
+    background-color: #F9F8F9;
+
+    border-radius: 20px;
+}
+
+.shlagbaumWhatNeededColumn {
+    width: 50%;
+}
+
+.shlagbaumWhatNeededItem {
+    margin-bottom: 20px;
+}
+
+.shlagbaumWhatNeededItemIcon {
+    width: 50px;
+
+    margin-right: 10px;
+}
+
+.shlagbaumWhatNeededItemTitle {
+    font-size: 20px;
+}
+
+
+.contactArgosWrapper {
+    padding: 10px 0;
+
+    background-color: #FFD517;
+    border-radius: 20px;
+}
+
+.contactArgos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contactArgosLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 350px;
+
+    padding: 10px 0;
+
+    background-color: #fff;
+
+    font-size: 20px;
+    color: #34393A;
+    font-weight: 600;
+    text-decoration: none;
+
+    border: 2px dashed #fff;
+
+    border-radius: 10px;
+
+    transition: .3s all;
+}
+
+.contactArgosLink:hover {
+    background-color: #eecc45;
+    color: #fff;
+}
+
+.contactArgosIcon {
+    width: 30px;
+    margin-right: 20px;
+
+    padding: 4px;
+
+    border-radius: 5px;
+
+    background-color: #fff;
+}
+
+
+.intiteTGWrapper {
+    margin-top: 70px;
+
+    border-radius: 25px;
+
+    background-color: #FFD517;
+}
+
+.intiteTG {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+
+    padding: 30px;
+}
+
+.intiteTGHeadlineWrapper {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.intiteTGHeadline {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.inviteTGDescr {
+    font-size: 20px;
+    width: 60%;
+}
+
+.intiteTGScanWrapper {
+    display: flex;
+}
+
+.inviteTGLinkWrapper {
+    width: 150px;
+
+    margin-right: 10px;
+    
+
+ 
+}
+
+.inviteTGLink {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+
+    color: #cea70d;
+
+    background-color: #fff;
+
+    border: 2px dashed #fff;
+    border-radius: 15px;
+
+    transition: .3s all;
+}
+
+.inviteTGLink:hover {
+    background-color: #eecc45;
+    color: #fff;
+}
+
+.intiteTGQR {
+    width: 250px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .shlagbaumTitleColumn1{
+        width: 55%;
+    }
+
+    .shlagbaumTitleHeadline {
+        margin: 0 0 15px 0;
+        
+        font-size: 34px;
+    }
+
+    .shlagbaumTitleDesc {
+        margin: 0 0 15px 0;
+
+        font-size: 18px;
+    }
+
+    .shlagbaumTitleButtons {
+        width: 100%;
+    }
+
+    .shlagbaumTitleLink {
+        font-size: 16px;
+    }
+
+    .shlagbaumTitleIcon {
+        margin-right: 5px;
+
+        width: 25px;
+    }
+
+    .shlagbaumTitleLink {
+        padding: 4px 0;
+    }
+
+    .shlagbaumTitleIconsWrapper {
+        margin-top: 15px;
+    }
+
+    .shlagbaumTitleAdventegesIcon {
+        width: 40px;
+    }
+
+    .shlagbaumTitleIconHeadline {
+        font-size: 16px;
+    }
+
+    .shlagbaumTitleIconSubheadline {
+        font-size: 15px;
+    }
+
+    .shlagbaumTitleColumn2 {
+        width: 45%;
+    }
+
+
+    .shlagbaumHowWeWorkColumn1 {
+        width: 60%;
+    }
+
+    .shlagbaumHowWeWorkColumn2 {
+        width: 35%;
+    }
+
+    .shlagbaumHowWeWorkRowFirst {
+        margin-top: 30px;
+    }
+
+    .shlagbaumHowWeWorkIcon {
+        width: 40px;
+    }
+
+    .shlagbaumHowWeWorkImage {
+        display: none;
+    }
+
+    .shlagbaumHowWeWorkImageVertical {
+        width: 100%;
+
+        display: inline;
+
+        border-radius: 15px;
+    }
+
+    .shlagbaumHowWeWorkTitle {
+        font-size: 20px;
+    }
+
+    .shlagbaumHowWeWorkSubtitle {
+        font-size: 16px;
+    }
+
+    .shlagbaumWhatNeededWrapper {
+        margin-top: 40px;
+    }
+
+    .shlagbaumWhatNeededItem {
+        margin-bottom: 10px;
+    }
+    
+    .shlagbaumWhatNeededItemIcon {
+        width: 40px;
+    }
+
+    .shlagbaumWhatNeededItemTitle {
+        font-size: 18px;
+    }
+
+    .intiteTGScanWrapper {
+        flex-direction: column;
+    }
+
+    .intiteTGHeadline {
+        font-size: 34px;
+    }
+
+    .inviteTGDescr {
+        width: 90%;
+    }
+
+    .inviteTGLinkWrapper{
+        order: 1;
+        width: 200px;
+        
+    }
+
+    .inviteTGLink {
+        font-size: 22px;
+    }
+    .intiteTGQRWrapper{
+        order: 0;
+    } 
+    
+    .intiteTGQR {
+        width: 200px;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .uslugiHeadlineWrapper {
+        margin-bottom: -10px;
+        text-align: center;
+    }
+
+    .uslugiHeadline {
+        font-size: 30px;
+    }
+
+    .shlagbaumWrapper {
+        padding: 10px;
+    }
+
+    .shlagbaumTitle {
+        position: relative;
+
+        flex-direction: column;
+    }
+
+    .shlagbaumTitleColumn1 {
+        width: 100%;
+
+    }
+
+    .shlagbaumTitleHeadline {
+        margin: 0;
+
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .shlagbaumTitleDesc {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .shlagbaumTitleButtons {
+        width: 100%;
+    }
+
+    .shlagbaumTitleIcon {
+        width: 20px;
+
+        margin-right: 5px;
+    }
+
+    .shlagbaumTitleLink {
+        font-size: 16px;
+
+        padding: 4px 0;
+    }
+
+    .shlagbaumTitleLinkTG {
+        width: 55%;
+    }
+
+    .shlagbaumTitleLinkPhone {
+        width: 40%;
+    }
+
+    .shlagbaumTitleIconsWrapper {
+        margin-top: 20px;
+    }
+
+    .shlagbaumTitleIcons {
+        justify-content: space-between;
+    }
+
+    .shlagbaumTitleIconItem {
+        flex-direction: column;
+        text-align: center;
+
+        margin: 0;
+    }
+
+    .shlagbaumTitleAdventegesIcon {
+        width: 46px;
+        margin: 0 0 8px 0;
+    }
+
+    .shlagbaumTitleIconHeadline {
+        font-size: 18px;
+    }
+
+    .shlagbaumTitleIconSubheadline {
+        font-size: 14px;
+    }
+
+    .shlagbaumTitleColumn2 {
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+        
+        opacity: .1;
+        width: 100%;
+    }
+
+    .shlagbaumAboutUsDesc {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .shlagbaumAboutUsIcons {
+        flex-direction: column;
+    }
+
+    .shlagbaumAboutUsIconItem {
+        width: auto;
+        margin: 5px 0;
+        padding: 10px;
+    }
+
+    .shlagbaumAboutUsIconTitle {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .shlagbaumAboutUsIconDesc {
+        font-size: 14px;
+    }
+
+    .shlagbaumAboutUsIcon {
+        width: 40px;
+    }
+
+    .shlagbaumHowWeWork {
+        flex-direction: column;
+    }
+
+    .shlagbaumHowWeWorkColumn1,
+    .shlagbaumHowWeWorkColumn2 {
+        width: 100%;
+    }
+
+    .shlagbaumHowWeWorkRow {
+        margin-top: 5px;
+    }
+
+    .shlagbaumHowWeWorkRowFirst {
+        margin-top: 20px;
+    }
+
+    .shlagbaumHowWeWorkItem {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .shlagbaumHowWeWorkIcon {
+        width: 35px;
+    }
+
+    .shlagbaumHowWeWorkTitle {
+        font-size: 18px;
+    }
+
+    .shlagbaumHowWeWorkSubtitle {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .shlagbaumHowWeWorkSubtitle a {
+        padding: 0 5px;
+    }
+
+    .shlagbaumWhatNeededWrapper {
+        margin-top: 60px;
+    }
+
+    .shlagbaumWhatNeededColumns {
+        flex-direction: column;
+    }
+
+    .shlagbaumWhatNeededColumn {
+        width: 100%;
+    }
+    
+    .shlagbaumWhatNeededItem {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .shlagbaumWhatNeededItemIcon {
+        width: 30px;
+    }
+
+    .shlagbaumWhatNeededItemTitle {
+        font-size: 18px;
+    }
+
+    
+    .contactArgosWrapper {
+    }
+
+    .contactArgos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactArgosLink {
+        width: 300px;
+        
+        margin: 5px 0;
+        padding: 5px 0;
+
+        font-size: 18px;
+    }
+
+    .contactArgosIcon {
+        width: 25px;
+
+        margin-right: 10px;
+    }
+
+    .intiteTGHeadline {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .inviteTGDescr {
+        width: 100%;
+        font-size: 16px;
+
+        padding:  0;
+        margin: 0;
+    }
+
+    .intiteTG {
+        flex-direction: column;
+        text-align: center;
+
+        padding: 20px 10px;
+    }
+
+    .intiteTGScanWrapper {
+        flex-direction: column;
+    }
+
+    .intiteTGQR {
+        width: 150px;
+    }
+
+    .inviteTGLinkWrapper {
+        width: 150px;
+        order: 1;
+        margin: 0;
+
+    }
+
+    .inviteTGLink {
+        font-size: 16px;
+        border-radius: 6px;
+
+    }
+
+    .intiteTGQRWrapper {
+        order: 0;
+    }
+}

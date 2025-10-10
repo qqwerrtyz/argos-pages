@@ -1,0 +1,557 @@
+.domofonyWrapper {
+    padding: 20px;
+}
+
+
+.uslugiHeadline {
+    font-size: 40px;
+    color: #facb0c;
+    font-weight: 600;
+}
+
+.domofonyTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.domofonyTitleColumn1 {
+    width: 30%;
+}
+
+.domofonyTitleImg {
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+
+.domofonyTitleColumn2 {
+    width: 60%;
+}
+
+.domofonyTitleTitle {
+    font-size: 80px;
+    line-height: 90%;
+
+    margin: 0 0 20px 0;
+}
+
+.domofonyTitleSubtitle {
+    width: 70%;
+
+    margin: 0 0 20px 0;
+
+    font-size: 22px;
+}
+
+.domofonyTitleBtns {
+    margin-top: 50px;
+}
+
+.domofonyTitleBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 15px 0;
+    padding: 10px;
+
+    font-size: 22px;
+    color: #34393A;
+    text-decoration: none;
+
+    border-radius: 20px;
+    
+}
+
+.domofonyTitleBtnTG {
+    width: 50%;
+
+    background-color: #FFCF00;
+    border: 3px dashed #FFCF00;
+
+    transition: .3s all;
+}
+
+.domofonyTitleBtnTG:hover {
+    background-color: #f8f2d8;
+}
+
+.domofonyTitleBtnPhone {
+    width: 30%;
+
+    border: 3px dashed #FFCF00;
+
+    transition: .3s all;
+}
+
+.domofonyTitleBtnPhone:hover {
+    background-color: #FFCF00;
+}
+
+.domofonyTitleIcon {
+    width: 40px;
+
+    margin-right: 10px;
+}
+
+.domofonyTitleIconTG {
+    padding: 4px;
+
+    background-color: #FFCF00;
+
+    border-radius: 5px;
+}
+
+.domofonyTitleIconPhone {
+    background-color: #fff;
+
+    padding: 4px;
+
+    border-radius: 5px;
+}
+
+.domofonyAboutUsWrapper {
+    margin-top: 50px;
+}
+
+.domofonyAboutUsDescAndIconsWrapper {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.domofonyAboutUsDescWrapper {
+    width: 30%;
+}
+
+.domofonyAboutUsDesc {
+    font-size: 20px;
+
+    margin: 0;
+}
+
+.domofonyAboutUsIconsWrapper {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.domofonyAboutUsIcon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.domofonyAboutUsIconIcon {
+    width: 90px;
+
+    margin-bottom: 15px;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.domofonyAboutUsIconTItle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.domofonyWhatIsItWrapper {
+    margin-top: 40px;
+}
+
+.domofonyWhatIsHeadline {
+    font-size: 26px;
+}
+
+.domofonyWhatIsItInfoWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.domofonyWhatIsItInfo {
+    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid #dadada;
+    border-radius: 20px;
+}
+
+.domofonyWhatIsItInfoColumn {
+    width: 50%;
+}
+
+.domofonyWhatIsItInfoItem {
+    display: flex;
+    align-items: center;
+
+    margin: 15px 0;
+}
+
+.domofonyWhatIsItInfoItemRound {
+    width: 8px;
+    height: 8px;
+
+    margin-right: 10px;
+
+    border-radius: 50%;
+
+    background-color: #facb0c;
+}
+
+.domofonyWhatIsItInfoItemText {
+    font-size: 20px;
+}
+
+.intiteTGWrapper {
+    margin-top: 70px;
+
+    border-radius: 25px;
+
+    background-color: #FFD517;
+}
+
+.intiteTG {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+
+    padding: 30px;
+}
+
+.intiteTGHeadlineWrapper {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.intiteTGHeadline {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.inviteTGDescr {
+    font-size: 20px;
+    width: 60%;
+}
+
+.intiteTGScanWrapper {
+    display: flex;
+}
+
+.inviteTGLinkWrapper {
+    width: 150px;
+
+    margin-right: 10px;
+    
+
+ 
+}
+
+.inviteTGLink {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+
+    color: #cea70d;
+
+    background-color: #fff;
+
+    border: 2px dashed #fff;
+    border-radius: 15px;
+
+    transition: .3s all;
+}
+
+.inviteTGLink:hover {
+    background-color: #eecc45;
+    color: #fff;
+}
+
+.intiteTGQR {
+    width: 250px;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .domofonyWrapper {
+        padding: 10px;
+    }
+
+    .domofonyTitleTitle {
+        font-size: 40px;
+    }
+
+    .domofonyTitleSubtitle {
+        font-size: 18px;
+    }
+
+    .domofonyTitleBtnTG {
+        width: 70%;
+    }
+
+    .domofonyTitleBtnPhone {
+        width: 60%;
+    }
+
+    .domofonyTitleIcon {
+        width: 30px;
+    }
+
+    .domofonyTitleBtns {
+        margin-top: 25px;
+    }
+
+    .domofonyTitleBtn {
+        padding: 4px 0;
+    }
+
+    .domofonyTitleBtn {
+        font-size: 18px;
+    }
+
+    .domofonyAboutUsWrapper {
+        margin-top: 20px;
+    }
+
+    .domofonyAboutUsDescAndIconsWrapper {
+        margin-top: 15px;
+    }
+
+    .domofonyAboutUsDescWrapper {
+        width: 60%;
+    }
+
+    .domofonyAboutUsDesc {
+        font-size: 18px;
+    }
+
+    .domofonyAboutUsIconIcon {
+        width: 60px;
+    }
+
+    .domofonyAboutUsIconTItle {
+        font-size: 14px;
+    }
+
+    .intiteTGScanWrapper {
+        flex-direction: column;
+    }
+
+    .intiteTGHeadline {
+        font-size: 34px;
+    }
+
+    .inviteTGDescr {
+        width: 90%;
+    }
+
+    .inviteTGLinkWrapper{
+        order: 1;
+        width: 200px;
+        
+    }
+
+    .inviteTGLink {
+        font-size: 22px;
+    }
+    .intiteTGQRWrapper{
+        order: 0;
+    } 
+    
+    .intiteTGQR {
+        width: 200px;
+    }
+   
+}
+
+@media screen and (max-width: 576px) {
+    .uslugiHeadlineWrapper {
+        margin-bottom: -10px;
+    }
+
+    .domofonyWrapper {
+        padding: 10px;
+    }
+
+    .uslugiHeadline {
+        font-size: 30px;
+    }
+
+
+    .domofonyTitle {
+        flex-direction: column;
+    }
+
+    .domofonyTitleColumn1 {
+        width: 50%;
+    }
+
+    .domofonyTitleImg {
+        border-radius: 10px;
+    }
+
+    .domofonyTitleColumn2 {
+        width: 100%;
+    }
+
+    .domofonyTitleTitle {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .domofonyTitleSubtitle {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .domofonyTitleBtns {
+        margin-top: 20px;
+
+    }
+
+    .domofonyTitleBtnTG {
+        width: auto;
+    }
+
+    .domofonyTitleBtnPhone {
+        width: auto;
+    }
+
+    .domofonyTitleIcon  {
+        width: 25px;
+    }
+
+    .domofonyTitleBtn  {
+        font-size: 18px;
+
+        padding: 6px 0;
+    }
+
+    .domofonyAboutUsDescAndIconsWrapper {
+        flex-direction: column;
+    }
+
+    .domofonyAboutUsWrapper {
+        margin-top: 20px;
+    }
+
+    .domofonyAboutUsDescWrapper {
+        width: 100%;
+    }
+
+    .domofonyAboutUsDesc {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .domofonyAboutUsIconsWrapper {
+        width: 100%;
+
+        margin-top: 20px;
+    }
+
+    .domofonyAboutUsIcon {
+        text-align: center;
+    }
+
+    .domofonyAboutUsIconIcon {
+        width: 60px;
+        margin-bottom: 5px;
+    }
+
+    .domofonyAboutUsIconTItle {
+        font-size: 14px;
+    }
+
+    
+    .domofonyWhatIsItWrapper {
+        margin-top: 30px;
+    }
+
+    .domofonyWhatIsItInfoWrapper {
+        flex-direction: column;
+    }
+
+    .domofonyWhatIsItInfo {
+        padding: 15px ;
+    }
+
+    .domofonyWhatIsItInfoColumn {
+        width: 100%;
+    }
+
+    .domofonyWhatIsHeadline {
+        font-size: 24px;
+    }
+
+    .domofonyWhatIsItInfoItem {
+        margin: 10px 0;
+    }
+
+    .domofonyWhatIsItInfoItemText {
+        font-size: 16px;
+    }
+
+    .intiteTGHeadline {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .inviteTGDescr {
+        width: 100%;
+        font-size: 16px;
+
+        padding:  0;
+        margin: 0;
+    }
+
+    .intiteTG {
+        flex-direction: column;
+        text-align: center;
+
+        padding: 20px 10px;
+    }
+
+    .intiteTGScanWrapper {
+        flex-direction: column;
+    }
+
+    .intiteTGQR {
+        width: 150px;
+    }
+
+    .inviteTGLinkWrapper {
+        width: 150px;
+        order: 1;
+        margin: 0;
+
+    }
+
+    .inviteTGLink {
+        font-size: 16px;
+        border-radius: 6px;
+
+    }
+
+    .intiteTGQRWrapper {
+        order: 0;
+    }
+}

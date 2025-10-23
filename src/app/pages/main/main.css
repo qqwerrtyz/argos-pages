@@ -1,0 +1,21 @@
+.mainTitleWrapper {
+    padding: 0;
+}
+
+.mainTitleCol1 {
+    width: 60%;
+}
+
+.titleMainImageWrapper {
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.titleMainImage {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

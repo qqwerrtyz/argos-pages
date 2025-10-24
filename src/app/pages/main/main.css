@@ -1,8 +1,33 @@
+
 .mainTitleWrapper {
-    padding: 0;
+    padding: 0;    
+}
+
+.mainTitle {
+    display: flex;
+    justify-content: space-between;
 }
 
 .mainTitleCol1 {
+    width: 70%;
+}
+
+.mainTitleTitle {
+    font-size: 50px;
+    line-height: 100%;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    color: #333;
+}
+
+.mainTitleTitleLittlePath {
+    color: #FAD232;
+}
+
+
+.mainTitleSubtitle {
+    font-size: 16px;
     width: 60%;
 }
 
@@ -10,6 +35,7 @@
     height: 50vh;
     overflow: hidden;
     position: relative;
+    margin-top: 50px;
 }
 
 .titleMainImage {
@@ -18,4 +44,225 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    border-radius: 20px;
+}
+
+.mainTitleCol2 {
+    width: 25%;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.mainTitleFeedbackWrapper {
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 50vh;
+
+    padding: 20px;
+
+
+    background-color: #FAD232;
+
+    border-radius: 20px;
+}
+
+.mainTitleQrImage {
+    width: 200px;
+}
+
+.mainTitleTgHeadline {
+    font-size: 16px;
+}
+
+.mainTitleQrTgWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.mainTitleQrImage {
+    width: 13vw;
+
+    border-radius: 15px;
+}
+
+.mainTitleLinkToTg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff;
+
+    margin-top: 10px;
+    padding: 5px 10px;
+
+    color: #333;
+    text-decoration: none;
+
+    border: 2px dashed #fff;
+    border-radius: 10px;
+
+    transition: .3s all;
+
+}
+
+.mainTitleIconTg {
+    width: 20px;
+    margin-right: 10px;
+
+    padding: 3px;
+
+    border-radius: 3px;
+
+    background-color: #fff;
+
+}
+
+.mainTitleLinkToTg:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+
+@media screen and (min-width: 1980px) {
+    .mainTitleTitle {
+        font-size: 100px;
+    }
+
+    .mainTitleSubtitle {
+        font-size: 40px;
+        width: 80%;
+    }
+
+    .mainTitleTgHeadline {
+        font-size: 40px;
+    }
+
+    .mainTitleFeedbackWrapper {
+        padding: 40px;
+    }
+
+    .mainTitleLinkToTg {
+        font-size: 30px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .mainTitleIconTg {
+        width: 40px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .mainTitle {
+        flex-direction: column;
+    }
+
+    .mainTitleCol1,
+    .mainTitleCol2 {
+        width: 100%;
+    }
+
+    .titleMainImageWrapper {
+        height: 30vh;
+    }
+
+    .mainTitleTitle {
+        font-size: 46px;
+    }
+
+    .mainTitleSubtitle {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .mainTitleFeedbackWrapper {
+        height: 22vh;
+        margin-top: 20px;
+    }
+
+    .mainTitleFeedbackWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mainTitleTgHeadline {
+        font-size: 26px;
+    }
+
+    .mainTitleQrImage {
+        width: 20vw;
+    }
+
+    .mainTitleLinkToTg {
+        text-align: center;
+        padding: 5px;
+    }
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .mainTitle {
+        flex-direction: column;
+    }
+
+    .mainTitleCol1,
+    .mainTitleCol2 {
+        width: 100%;
+    }
+
+    .mainTitleCol2 {
+        margin-top: 20px;
+    }
+
+    .mainTitleTitle {
+        font-size: 32px;
+
+        text-align: center;
+    }
+
+    .mainTitleSubtitle {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mainTitleFeedbackWrapper {
+        padding: 10px;
+
+        display: flex;
+        align-items: center;
+        height: auto;
+    }
+
+    .mainTitleTgHeadlineWrapper {
+        text-align: center;
+    }
+
+    .mainTitleTgHeadline {
+        font-size: 18px;
+        padding-right: 8px;
+    }
+
+    .mainTitleQrImage{
+        width: 25vw;
+    }
+
+    .mainTitleLinkToTg {
+        padding: 5px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .mainTitleIconTg {
+        width: 15px;
+        margin-right: 5px;
+    }
 }

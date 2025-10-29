@@ -129,6 +129,214 @@
 }
 
 
+
+
+.whyRecomendedWrppaer {
+    margin-top: 50px;
+}
+
+.whyRecomendedItems {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.whyRecomendedItem {
+    width: 23%;
+
+    box-sizing: border-box;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-radius: 20px;
+
+    background-color: #F7F7F7;
+}
+
+.whyRecomendedItemHeadlineWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.whyRecomendedItemUpperHeadline {
+    font-size: 14px;
+    color: #797979;
+    font-weight: 600;
+}
+
+.whyRecomendedtemHeadline {
+    min-height: 45px;
+
+    margin-top: 10px;
+
+    font-size: 20px;
+    color: #333333;
+}
+
+.whyRecomendedtemDesc {
+    font-size: 16px;
+
+}
+
+.whyRecomendedItemImgWrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.whyRecomendedItemImg {
+    width: 80px;
+}
+
+
+
+.mainServicesWrapper {
+    display: flex;
+    justify-content: center;
+
+    margin: 40px 0;
+}
+
+
+.mainServices {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    width: 90%;
+
+    box-sizing: border-box;
+    padding: 30px;
+
+    
+    border-radius: 20px;
+}
+
+.mainServicesCol {
+    width: 30%;
+    
+}
+
+.mainServicesCallMe {
+    margin: 0;
+
+    font-size: 26px;
+    color: #d4ac0b;
+}
+
+.mainServicesLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+
+    margin-top: 15px;
+    padding: 5px 0;
+
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+
+    border: 2px dashed #FAD232;
+    border-radius: 15px;
+
+    background-color: #FAD232;
+
+    transition: .3s all;
+}
+
+.mainServicesLink:hover {
+    background-color: #f7e9ba;
+}
+
+.mainServicesLinkImg {
+    width: 20px;
+
+    margin-right: 10px;
+    padding: 4px;
+
+    border-radius: 5px;
+
+    background-color: #FAD232;
+}
+
+
+
+
+
+
+
+.mainServicesItemImg {
+    width: 100%;
+
+    border-radius: 20px 20px 0 0;
+}
+
+.mainServicesItemContent {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    padding: 30px 20px 20px 20px;
+    margin-top: -8px;
+
+    border-radius: 0 0 20px 20px;
+}
+
+.mainServicesItemContentVideonab {
+    background-color: #fff9e1;
+}
+
+.mainServicesItemContentSlagbaum {
+    border: 2px solid #FAD232;
+}
+
+.mainServicesItemHeadline {
+    font-size: 16px;
+    color: #695400;
+    font-weight: 600;
+
+    padding: 5px 10px;
+
+    border-radius: 5px;
+
+    background-color: #f5da6f;
+}
+
+.mainServicesItemDesc {
+    font-size: 20px;
+    line-height: 100%;
+    color: #695400;
+
+    min-height: 120px;
+}
+
+.mainServicesItemLink {
+    display: flex;
+    align-items: center;
+
+    font-size: 16px;
+
+    color: #695400;
+    text-decoration: none;
+
+}
+
+.mainServicesItemArrow {
+    margin-left: 10px;
+    width: 20px;
+}
+
+
+
 @media screen and (min-width: 1980px) {
     .mainTitleTitle {
         font-size: 100px;
@@ -155,6 +363,64 @@
 
     .mainTitleIconTg {
         width: 40px;
+    }
+
+
+
+
+    .whyRecomendedItem {
+        padding: 30px;
+    }
+
+    .whyRecomendedItemUpperHeadline  {
+        font-size: 18px;
+    }
+
+    .whyRecomendedtemHeadline {
+        font-size: 34px;
+        min-height: 80px;
+    }
+
+    .whyRecomendedtemDesc {
+        font-size: 20px;
+    }
+
+    .whyRecomendedItemImg {
+        width: 100px;
+    }
+
+
+    .mainServicesCallMe {
+        font-size: 40px;
+    }
+
+    .mainServicesLink {
+        font-size: 24px;
+        width: 300px;
+    }
+
+    .mainServicesLinkImg {
+        width: 30px;
+    }
+
+    .mainServicesItemHeadline {
+        font-size: 26px;
+        padding: 10px 20px;
+        border-radius: 15px;
+    }
+
+    .mainServicesItemDesc {
+        margin: 40px 0;
+
+        font-size: 24px;
+    }
+
+    .mainServicesItemLink {
+        font-size: 20px;
+    }
+
+    .mainServicesItemArrow {
+        width: 25px;
     }
 }
 
@@ -204,6 +470,112 @@
     .mainTitleLinkToTg {
         text-align: center;
         padding: 5px;
+    }
+
+
+
+
+    .whyRecomendedWrppaer {
+        margin-top: 40px;
+    }
+
+
+    .whyRecomendedItems {
+        flex-wrap: wrap;
+    }
+
+    .whyRecomendedItem {
+        width: 48%;
+
+        margin-bottom: 20px;
+    }
+
+    .whyRecomendedItemUpperHeadline {
+        font-size: 12px;
+    }
+
+    .whyRecomendedtemHeadline {
+        font-size: 18px;
+    }
+
+    .whyRecomendedtemHeadline {
+        min-height: 25px;
+    }
+
+    .whyRecomendedItemImg {
+        width: 60px;
+    }
+
+
+
+
+    .mainServices {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .mainServicesCol1 {
+        order: 0;
+        width: 100%;
+
+        margin-bottom: 20px;
+    }
+
+    .mainServicesCol2 {
+        order: 1;
+        width: 48%;
+    }
+
+    .mainServicesCol3 {
+        order: 1;
+        width: 48%;
+    }
+
+    .mainServicesCallMeWrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .mainServicesCallMe {
+        margin-right: 10px;
+        font-size: 24px;
+    }
+
+    .mainServicesLink {
+        width: 200px;
+        margin: 0;
+        padding: 5px;
+        font-size: 16px;
+
+    }
+
+    .mainServicesLinkImg {
+        width: 15px;
+    }
+
+    
+
+
+
+
+
+
+
+    .mainServicesItemDesc {
+        font-size: 18px;
+    }
+
+    .mainServicesItemLink {
+        font-size: 14px;
+    }
+
+    .mainServicesItemArrow {
+        width: 15px;
+    }
+
+    .mainServicesItemHeadline {
+        font-size: 14px;
+        padding: 8px 14px;
     }
 }
 
@@ -264,5 +636,108 @@
     .mainTitleIconTg {
         width: 15px;
         margin-right: 5px;
+    }
+
+
+
+
+    .whyRecomendedWrppaer {
+        margin-top: 20px;
+    }
+
+    .whyRecomendedItems {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .whyRecomendedItem {
+        width: 100%;
+    }
+
+    .whyRecomendedItem {
+        margin: 10px 0;
+    }
+
+    .whyRecomendedtemHeadline {
+        min-height: auto;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .whyRecomendedItemUpperHeadline {
+        font-size: 10px;
+    }
+
+    .whyRecomendedtemDesc {
+        font-size: 14px;
+    }
+
+    .whyRecomendedItemImg {
+        width: 50px;
+    }
+
+
+
+
+
+    .mainServices {
+        width: 100%;
+
+        padding: 0;
+
+        flex-direction: column;
+    }
+
+    .mainServicesCol {
+        width: 100%;
+
+        text-align: center;
+    }   
+
+    
+    .mainServicesCol1 {
+        order: 1;
+
+        margin: 20px 0;
+    }
+    .mainServicesCol2 {
+        order: 2;
+    }
+    .mainServicesCol3 {
+        order: 0;
+    }
+
+    .mainServicesItemContent {
+        align-items: center;
+    }
+
+    .mainServicesItemDesc {
+        font-size: 18px;
+        min-height: auto;
+    }
+
+    .mainServicesItemLink {
+        font-size: 14px;
+    }
+
+    .mainServicesItemArrow {
+        width: 15px;
+        margin-left: 5px;
+    }
+
+    .mainServicesCallMeWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainServicesCallMe {
+        font-size: 22px;
+    }
+
+    .mainServicesLink {
+        font-size: 18px;
+        padding: 5px 0;
+        margin-top: 15px;
     }
 }

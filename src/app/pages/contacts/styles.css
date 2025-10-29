@@ -182,6 +182,69 @@
         font-size: 22px;
     }
 
+
+
+    .mainServices {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .mainServicesCol1 {
+        order: 0;
+        width: 100%;
+
+        margin-bottom: 20px;
+    }
+
+    .mainServicesCol2 {
+        order: 1;
+        width: 48%;
+    }
+
+    .mainServicesCol3 {
+        order: 1;
+        width: 48%;
+    }
+
+    .mainServicesCallMeWrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .mainServicesCallMe {
+        margin-right: 10px;
+        font-size: 24px;
+    }
+
+    .mainServicesLink {
+        width: 200px;
+        margin: 0;
+        padding: 5px;
+        font-size: 16px;
+
+    }
+
+    .mainServicesLinkImg {
+        width: 15px;
+    }
+
+    .mainServicesItemDesc {
+        font-size: 18px;
+    }
+
+    .mainServicesItemLink {
+        font-size: 14px;
+    }
+
+    .mainServicesItemArrow {
+        width: 15px;
+    }
+
+    .mainServicesItemHeadline {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -236,5 +299,68 @@
 
     .contactTGQRWrapper {
         text-align: center;
+    }
+
+
+
+    .mainServices {
+        width: 100%;
+
+        padding: 0;
+
+        flex-direction: column;
+    }
+
+    .mainServicesCol {
+        width: 100%;
+
+        text-align: center;
+    }   
+
+    
+    .mainServicesCol1 {
+        order: 1;
+
+        margin: 20px 0;
+    }
+    .mainServicesCol2 {
+        order: 2;
+    }
+    .mainServicesCol3 {
+        order: 0;
+    }
+
+    .mainServicesItemContent {
+        align-items: center;
+    }
+
+    .mainServicesItemDesc {
+        font-size: 18px;
+        min-height: auto;
+    }
+
+    .mainServicesItemLink {
+        font-size: 14px;
+    }
+
+    .mainServicesItemArrow {
+        width: 15px;
+        margin-left: 5px;
+    }
+
+    .mainServicesCallMeWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainServicesCallMe {
+        font-size: 22px;
+    }
+
+    .mainServicesLink {
+        font-size: 18px;
+        padding: 5px 0;
+        margin-top: 15px;
     }
 }

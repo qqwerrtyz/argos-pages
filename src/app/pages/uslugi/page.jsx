@@ -11,14 +11,16 @@ export default function Uslugi() {
                     <div className="uslugiShalgbaumAndVideo">
 
                         <div className="uslugiShalgbaumAndVideoTextContent">
-                            <div className="uslugiShalgbaumAndVideoHeadlineWrapper">
-                                <span className="uslugiShalgbaumAndVideoHeadline">Надежная граница въезда/выезда</span>
-                            </div>
+                            <div className="uslugiShalgbaumAndVideoTextHeader">
+                                <div className="uslugiShalgbaumAndVideoHeadlineWrapper">
+                                    <span className="uslugiShalgbaumAndVideoHeadline">Надежная граница въезда/выезда</span>
+                                </div>
 
-                            <div className="uslugiShalgbaumAndVideoDescWrapper">
-                                <p className="uslugiShalgbaumAndVideoDesc">
-                                    Прочный шлагбаум с автоматикой, гарантирующий стабильную работу и удобство всегда
-                                </p>
+                                <div className="uslugiShalgbaumAndVideoDescWrapper">
+                                    <p className="uslugiShalgbaumAndVideoDesc">
+                                        Прочный шлагбаум с автоматикой, гарантирующий стабильную работу и удобство всегда
+                                    </p>
+                                </div>
                             </div>
 
                             <div className="uslugiShalgbaumAndVideoListWrapper">
@@ -62,14 +64,16 @@ export default function Uslugi() {
                     <div className="uslugiShalgbaumAndVideo">
 
                         <div className="uslugiShalgbaumAndVideoTextContent">
-                            <div className="uslugiShalgbaumAndVideoHeadlineWrapper">
-                                <span className="uslugiShalgbaumAndVideoHeadline">Наблюдение за всем вашим объектом</span>
-                            </div>
+                            <div className="uslugiShalgbaumAndVideoTextHeader">
+                                <div className="uslugiShalgbaumAndVideoHeadlineWrapper">
+                                    <span className="uslugiShalgbaumAndVideoHeadline">Наблюдение за всем вашим объектом</span>
+                                </div>
 
-                            <div className="uslugiShalgbaumAndVideoDescWrapper">
-                                <p className="uslugiShalgbaumAndVideoDesc">
-                                    Наблюдение круглосуточно, запись на сервер, удалённый просмотр с телефона – удобно
-                                </p>
+                                <div className="uslugiShalgbaumAndVideoDescWrapper">
+                                    <p className="uslugiShalgbaumAndVideoDesc">
+                                        Наблюдение круглосуточно, запись на сервер, удалённый просмотр с телефона – удобно
+                                    </p>
+                                </div>
                             </div>
 
                             <div className="uslugiShalgbaumAndVideoListWrapper">

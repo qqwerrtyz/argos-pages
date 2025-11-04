@@ -141,7 +141,17 @@ export default function Main() {
                         <div className="mainServicesAnotherServicesWrapper">
                             <div className="mainServicesAnotherServicesRow">
                                 <div className="mainServicesAnotherServiceSkud">
+                                    <div className="mainServicesAnotherServiceSkudImgWrapper">
+                                        <img src="/images/main/anotherSKUD.png" className="mainServicesAnotherServiceSkudImg"/>
+                                    </div>
 
+                                    <div className="mainServicesAnotherServiceSkudTextWrapper">
+                                        <span className="mainServicesAnotherServiceSkudText">СКУД: турникеты</span>
+                                        <div className="mainServicesAnotherServiceSkudLinkWrapper">
+                                            <a href="#" className="mainServicesAnotherServiceSkudLink">Перейти</a>
+                                            <img src="/images/another/arrowGo.svg" class="mainServicesItemArrow"></img>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

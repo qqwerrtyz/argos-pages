@@ -248,9 +248,12 @@ export default function Uslugi() {
                     <div className="forTSSHLozungWrapper">
                         <div className="forTSSHLozungTextWrapper">
                             <p className="forTSSHLozungText">
-                                Мы понимаем, что ваша главная задача - спокойствие жильцов 
+                                Мы понимаем, что ваша главная задача – спокойствие жильцов 
                                 и сохранность имущества без лишних затрат.
+                                <span className="forTSSHLozungTextProblemUs"> Решаем такие проблемы, как</span>
                             </p>
+
+                          
                         </div>
 
                         <div className="forTSSHLozungAdventages">
@@ -269,6 +272,47 @@ export default function Uslugi() {
                                 <span className="forTSSHLozungAdventageText">Незаконное проникновение</span>
                             </div>
                         </div>
+                    </div>
+
+
+                    <div className="forTSZHUslugiList">
+                        <div className="forTSZHUslugiItem forTSZHUslugiItem1">
+                            <div className="forTSZHUslugiItemHeadlineWrapper">
+                                <span className="forTSZHUslugiItemHeadline">Установка аудио- и видеодомофоны</span>
+                            </div>
+
+                            <div className="forTSZHUslugiItemLinkWrapper">
+                                <a className="forTSZHUslugiItemLink" href="%">Узнать</a>
+                            </div>
+
+                            <img src="/images/uslugi/uslugiDomofon.png" className="forTSZHUslugiItemImg"/>
+                        </div>
+
+                        <div className="forTSZHUslugiItem forTSZHUslugiItem2">
+                            <div className="forTSZHUslugiItemHeadlineWrapper">
+                                <span className="forTSZHUslugiItemHeadline">Монтаж видеонаблюдения в подъездах и на территории</span>
+                            </div>
+
+                            <div className="forTSZHUslugiItemLinkWrapper">
+                                <a className="forTSZHUslugiItemLink" href="%">Узнать</a>
+                            </div>
+
+                            <img src="/images/uslugi/uslugiVideo.png" className="forTSZHUslugiItemImg"/>
+                        </div>
+
+                        <div className="forTSZHUslugiItem forTSZHUslugiItem3">
+                            <div className="forTSZHUslugiItemHeadlineWrapper">
+                                <span className="forTSZHUslugiItemHeadline">Контроль доступа</span>
+                            </div>
+
+                            <div className="forTSZHUslugiItemLinkWrapper">
+                                <a className="forTSZHUslugiItemLink" href="%">Узнать</a>
+                            </div>
+
+                            <img src="/images/uslugi/uslugiSKUD.png" className="forTSZHUslugiItemImg"/>
+                        </div>
+
+                        
                     </div>
                 </div>
             </div>

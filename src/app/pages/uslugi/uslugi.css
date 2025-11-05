@@ -272,15 +272,42 @@
 }
 
 .forTSSHLozungTextWrapper {
-    width: 50%;
+    width: 60%;
 
     display: flex;
     align-items: center;
 }
 
 
+
+.forTSSHLozungText {
+    position: relative;
+
+
+
+    font-size: 26px;
+}
+
+.forTSSHLozungTextProblemUs {
+    margin-top: 10px;
+
+    color: #e3b418;
+    font-weight: 600;
+}
+
+.forTSSHLozungText:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 60px;
+    height: 6px;
+    background-color: #fdc713;
+}
+
+
 .forTSSHLozungAdventages {
-    width: 35%;
+    width: 40%;
 
     display: flex;
     justify-content: space-between;
@@ -290,15 +317,74 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
+
+    width: 165px;
+
+    padding: 10px 25px;
+    box-sizing: border-box;
+
+    text-align: center;
+
+    background-color: #e3b418;
+
+    border-radius: 15px;
+
 }
 
 .forTSSHLozungAdventageIcon {
     width: 60px;
     
-    margin-right: 10px;
+}
+
+.forTSSHLozungAdventageText {
+    margin-top: 10px;
+
+    min-height: 35px;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.forTSZHUslugiItemImg {
+    width: 80px;
 }
 
 
+.forTSZHUslugiList {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.forTSZHUslugiItem {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 130px;
+
+    padding: 15px;
+
+    border-radius: 15px;
+
+    background-color: red;
+}
+
+.forTSZHUslugiItemHeadline {
+    font-size: 20px;
+}
+
+
+
+.forTSZHUslugiItemImg {
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+}
 
 @media screen and (min-width: 1980px) {
     .uslugiAttentionWrapper {

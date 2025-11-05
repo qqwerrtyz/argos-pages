@@ -245,7 +245,31 @@ export default function Uslugi() {
                         <span className="uslugiHeadline">Для управляющих компаний и ТСЖ</span>
                     </div>
 
+                    <div className="forTSSHLozungWrapper">
+                        <div className="forTSSHLozungTextWrapper">
+                            <p className="forTSSHLozungText">
+                                Мы понимаем, что ваша главная задача - спокойствие жильцов 
+                                и сохранность имущества без лишних затрат.
+                            </p>
+                        </div>
 
+                        <div className="forTSSHLozungAdventages">
+                            <div className="forTSSHLozungAdventage">
+                                <img src="/images/uslugi/noexit.svg" className="forTSSHLozungAdventageIcon"/>
+                                <span className="forTSSHLozungAdventageText">Неконтролируемый доступ</span>
+                            </div>
+
+                            <div className="forTSSHLozungAdventage">
+                                <img src="/images/uslugi/crash.svg" className="forTSSHLozungAdventageIcon"/>
+                                <span className="forTSSHLozungAdventageText">Вандализм</span>
+                            </div>
+
+                            <div className="forTSSHLozungAdventage">
+                                <img src="/images/uslugi/vor.svg" className="forTSSHLozungAdventageIcon"/>
+                                <span className="forTSSHLozungAdventageText">Незаконное проникновение</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 

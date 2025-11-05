@@ -266,6 +266,40 @@
     width: 110px;
 }
 
+.forTSSHLozungWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forTSSHLozungTextWrapper {
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.forTSSHLozungAdventages {
+    width: 35%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.forTSSHLozungAdventage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forTSSHLozungAdventageIcon {
+    width: 60px;
+    
+    margin-right: 10px;
+}
+
+
+
 @media screen and (min-width: 1980px) {
     .uslugiAttentionWrapper {
         margin-bottom: 40px;

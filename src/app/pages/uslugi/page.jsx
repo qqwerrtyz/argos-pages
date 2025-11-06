@@ -309,14 +309,65 @@ export default function Uslugi() {
                                 <a className="forTSZHUslugiItemLink" href="%">Узнать</a>
                             </div>
 
-                            <img src="/images/uslugi/uslugiSKUD.png" className="forTSZHUslugiItemImg"/>
+                            <img src="/images/uslugi/uslugiShlag.png" className="forTSZHUslugiItemImg"/>
                         </div>
 
                         
                     </div>
+
+
+                    <div className="forTSZHOfferWrapper">
+                        <div className="forTSZHOffer">
+                            <div className="forTSZHOfferHeaderWrapper">
+                                <span className="forTSZHOfferHeader">Гарантируем</span>
+                            </div>
+                            <p className="forTSZHOfferParagraph">
+                                Прозрачную смету, аккуратный монтаж без повреждения отделки и долгосрочную гарантию
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+
+            <div className="forBusinesWrapper">
+                <div className="forBusines">
+                    <div className="uslugiHeadlineWrapper">
+                        <span className="uslugiHeadline">Для управляющих компаний и ТСЖ</span>
+                    </div>
+                    
+                    <div className="forBusinesCol">
+                        <div className="forBusinesParagraphWrapper">
+                            <p className="forBusinesParagraph">
+                                Безопасность - это не статья расходов, а инвестиция в стабильность вашей компании.
+                                <span className="forBusinesNoProblem">Устраняем следующие проблемы</span>
+                            </p>
+                        </div>
+                        
+                        <div className="forBusinesProblems">
+                            <div className="forBusinesProblem">
+                                <img src="/images/uslugi/vor.svg" className="forBusinesProblemImg"/>
+                                <span className="forBusinesProblemTitle">Кражи</span>
+                            </div>
+
+                            <div className="forBusinesProblem">
+                                <img src="/images/uslugi/noexit.svg" className="forBusinesProblemImg"/>
+                                <span className="forBusinesProblemTitle">несанкционированный доступ в помещения</span>
+                            </div>
+
+                            <div className="forBusinesProblem">
+                                <img src="/images/uslugi/done.svg" className="forBusinesProblemImg"/>
+                                <span className="forBusinesProblemTitle">контроль сотрудников и посетителей</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="forBusinesCol">
+                        
+                    </div>
+
+                </div>
+            </div>
 
         </div>
     )

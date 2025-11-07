@@ -629,6 +629,9 @@
 }
 
 .forBusnesUslugiItemLinkWrapper {
+    position: relative;
+    z-index: 1;
+
     width: 150px;
 }
 
@@ -658,6 +661,45 @@
 }
 
 
+.forStroiCompTextContent {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.forStroiCompTextContentCol {
+    width: 32%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.forStroiComp {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.forStroiCompImgWrapper {
+    width: 550px;
+    height: 550px;
+}
+
+.forStroiCompImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
 
 @media screen and (min-width: 1980px) {
     .uslugiAttentionWrapper {
@@ -824,6 +866,57 @@
 
     .forTSZHOfferParagraph {
         font-size: 46px;
+    }
+
+
+    .forBusines {
+        padding: 30px;
+    }
+
+    .forBusinesCol {
+        height: 600px;
+    }
+
+    .forBusinesTextContent {
+        padding: 30px;
+    }
+
+    .forBusinesParagraph {
+        font-size: 50px;
+    }
+
+    .forBusinesProblemWrapper {
+        margin-top: 30px;
+    }
+
+    .forBusinesProblems {
+        font-size: 30px;
+    }
+
+    .fotBusinesGarant {
+        font-size: 26px;
+    }
+
+    .forBusnesUslugiItem {
+        height: 280px;
+    }
+
+    .forBusnesUslugiItemHeader {
+        font-size: 38px;
+    }
+
+    .forBusnesUslugiItemLinkWrapper {
+        width: 240px;
+    }
+
+    .forBusnesUslugiItemLink {
+        padding: 15px 0;
+
+        font-size: 22px;
+    }
+
+    .forBusnesUslugiItemImg {
+        width: 230px;
     }
 }
 
@@ -1012,6 +1105,37 @@
 
     .forTSZHOfferParagraph {
         font-size: 24px;
+    }
+
+
+
+
+    .forBusinesParagraph {
+        font-size: 30px;
+    }
+
+    .forBusinesProblems {
+        font-size: 18px;
+    }
+
+    .fotBusinesGarant {
+        font-size: 18px;
+    }
+
+    .forBusnesUslugiItemHeader {
+        font-size: 24px;
+    }
+
+    .forBusnesUslugiItemImg {
+        width: 150px;
+    }
+
+    .forBusnesUslugiItemLinkWrapper {
+        width: 140px;
+    }
+
+    .forBusnesUslugiItemLink {
+        font-size: 14px;
     }
 
 }
@@ -1259,8 +1383,28 @@
         font-size: 14px;
     }
 
-    .forBusnesUslugiList {
-        /* margin-top: 20px; */
+    .forBusnesUslugiItem {
+        margin-bottom: 10px;
+        padding: 10px;
+
+        height: 180px;
+    }
+    
+    .forBusnesUslugiItemImg {
+        width: 130px;
+    }
+
+    .forBusnesUslugiItemLinkWrapper {
+        width: 100px;
+
+    }
+
+    .forBusnesUslugiItemLink {
+        font-size: 12px;
+    }
+
+    .forBusnesUslugiItemHeader {
+        font-size: 22px;
     }
     
 }

@@ -403,9 +403,51 @@ export default function Uslugi() {
                         
                     </div>
 
+                    
+
                 </div>
             </div>
 
+
+
+            <div className="forStroiCompWrapper">
+                <div className="uslugiHeadlineWrapper">
+                    <span className="uslugiHeadline">Для бизнеса</span>
+                </div>
+
+                <div className="forStroiComp">
+                    <div className="forStroiCompCol forStroiCompTextContent">
+                        <div className="forStroiCompTextContentCol">
+                            <div className="forStroiCompOfferWrapper">
+                                <p className="forStroiCompOffer">
+                                    Сдайте объект с готовой системой безопасности без головной боли и поиска подрядчиков
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="forStroiCompTextContentCol">
+                            <div className="forStroiCompItemIconWrapper">
+                                <img className="forStroiCompItemIcon" src="/images/uslugi/clutch.svg"/>
+                                <span className="forStroiCompItemIconText">Сдаем объекты под ключ</span>
+                            </div>
+
+                            <div className="forStroiCompItemIconWrapper">
+                                <img className="forStroiCompItemIcon" src="/images/uslugi/deadlineOver.svg"/>
+                                <span className="forStroiCompItemIconText">Без рисков срыва сроков из-за нерадивых подрядчиков</span>
+                            </div>
+                        </div>
+
+                        <div className="forStroiCompTextContentCol">
+
+                        </div>
+                    </div>
+                    <div className="forStroiCompCol forStroiCompImgContent">
+                        <div className="forStroiCompImgWrapper">
+                            <img src="/images/main/title.jpg" className="forStroiCompImg"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

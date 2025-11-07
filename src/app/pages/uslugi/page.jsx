@@ -417,7 +417,7 @@ export default function Uslugi() {
 
                 <div className="forStroiComp">
                     <div className="forStroiCompCol forStroiCompTextContent">
-                        <div className="forStroiCompTextContentCol">
+                        <div className="forStroiCompTextContentCol forStroiCompSlogan">
                             <div className="forStroiCompOfferWrapper">
                                 <p className="forStroiCompOffer">
                                     Сдайте объект с готовой системой безопасности без головной боли и поиска подрядчиков
@@ -425,25 +425,45 @@ export default function Uslugi() {
                             </div>
                         </div>
 
-                        <div className="forStroiCompTextContentCol">
-                            <div className="forStroiCompItemIconWrapper">
-                                <img className="forStroiCompItemIcon" src="/images/uslugi/clutch.svg"/>
-                                <span className="forStroiCompItemIconText">Сдаем объекты под ключ</span>
+                        <div className="forStroiCompTextContentCol forStroiCompIconContent">
+
+                            <div className="forStroiCompItemIcons">
+                                <div className="forStroiCompItemIconWrapper">
+                                    <img className="forStroiCompItemIcon" src="/images/uslugi/clutch.svg"/>
+                                    <span className="forStroiCompItemIconText">Сдаем объекты под ключ</span>
+                                </div>
+
+                                <div className="forStroiCompItemIconWrapper">
+                                    <img className="forStroiCompItemIcon" src="/images/uslugi/deadlineOver.svg"/>
+                                    <span className="forStroiCompItemIconText">Без рисков срыва сроков из-за нерадивых подрядчиков</span>
+                                </div>
                             </div>
 
-                            <div className="forStroiCompItemIconWrapper">
-                                <img className="forStroiCompItemIcon" src="/images/uslugi/deadlineOver.svg"/>
-                                <span className="forStroiCompItemIconText">Без рисков срыва сроков из-за нерадивых подрядчиков</span>
+                            <div className="forStroiCompLinkWrapper">
+                                <a className="forStroiCompLink" href="#">Оставить заявку</a>
                             </div>
                         </div>
 
-                        <div className="forStroiCompTextContentCol">
-
+                        <div className="forStroiCompTextContentCol forStroiCompGarantContent">
+                            <div className="forStroiCompGarantWrapper">
+                                <p className="forStroiCompGarant">
+                                    Гарантируем: работу по утвержденному графику, технически грамотные решения и полный пакет документов.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div className="forStroiCompCol forStroiCompImgContent">
                         <div className="forStroiCompImgWrapper">
                             <img src="/images/main/title.jpg" className="forStroiCompImg"/>
+                        </div>
+
+                        <div className="forStroiCompUslugaWrapper">
+                            <div className="forStroiCompUsluga">
+                                <p className="forStroiCompUslugaParagprah">
+                                    <span className="forStroiCompUslugaHighlight">Предлагаем </span>
+                                     полный цикл - от проектирования на ранних этапах до монтажа и сдачи госкомиссии
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

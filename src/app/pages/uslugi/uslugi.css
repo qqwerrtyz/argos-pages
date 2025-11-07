@@ -504,6 +504,7 @@
 .forBusinesWrapper {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .forBusines {
@@ -519,43 +520,143 @@
     
     border-radius: 40px;
 
-    background-color: #fbedb0;
+    background-color: #ffd000;
 
     -webkit-box-shadow: 0px 12px 12px 5px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 0px 12px 12px 5px rgba(34, 60, 80, 0.2);
     box-shadow: 0px 12px 12px 5px rgba(34, 60, 80, 0.2);
 }
 
-.forBusines
+.forBusinesWrapper
 .uslugiHeadlineWrapper {
     width: 100%;
 }
 
 .forBusinesCol {
     width: 48%;
+    height: 500px;
 }
 
 
-
-
-.forBusinesProblems {
-    display: flex;
-    justify-content: space-between;
-}
-
-.forBusinesProblem {
-    width: 30%;
-
+.forBusinesTextContent {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
+    padding: 15px;
+    box-sizing: border-box;
+    
+    border-radius: 20px;
+
+    background-color: #fdedb9;
+
+    color: #333;
+}
+
+.forBusinesParagraph {
+    margin: 0;
+
+    font-size: 36px;
+    line-height: 110%;
+}
+
+.forBusinesProblemWrapper {
+    margin-top: 10px;
+}
+
+.forBusinesProblems {
+    font-size: 22px;
+
+    line-height: 110%;
+
+    margin: 0;
+}
+
+.forBusinesNoProblem {
+    color: #b78f00;
+    font-weight: 600;
+}
+
+.fotBusinesGarant {
+    margin: 0;
+
+    font-size: 17px;
+    font-weight: 500;
+    color: #646464;
+}
+
+
+.forBusnesUslugiList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+.forBusnesUslugiItem {
+    position: relative;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 240px;
+
+    padding: 25px;
+    box-sizing: border-box;
+
+    border-radius: 20px;
+    border: 3px solid #fcedbd;
+
+  
+}
+
+.forBusnesUslugiItemHeader {
+    position: relative;
+    z-index: 1;
+    font-size: 26px;
+}
+
+.forBusnesUslugiItemImg {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    z-index: 0;
+
+    width: 180px;
+}
+
+.forBusnesUslugiItemLinkWrapper {
+    width: 150px;
+}
+
+.forBusnesUslugiItemLink {
+    display: flex;
     align-items: center;
+    justify-content: center;
 
-    text-align: center;
+    width: 100%;
+
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+
+    padding: 10px 0;
+
+    background-color: #fff;
+
+    border-radius: 10px;
+
+    transition: .3s all;
+
 }
 
-.forBusinesProblemImg {
-    width: 60px;
+.forBusnesUslugiItemLink:hover {
+    transform: scale(1.05);
 }
+
 
 
 @media screen and (min-width: 1980px) {
@@ -1122,5 +1223,44 @@
         font-size: 18px;
     }
 
+
+    .forBusines {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .forBusinesCol {
+        width: 100%;
+        height: auto;
+    }
+
+    .forBusinesTextContent {
+        padding: 10px;
+        border-radius: 10px;
+
+        margin-bottom: 30px;
+    }
+
+    .forBusinesParagraph {
+        font-size: 22px;
+    }
+
+    .forBusinesProblemWrapper {
+        margin-top: 5px;
+    }
+
+    .forBusinesProblems {
+        font-size: 14px;
+    }
+
+    .fotBusinesGarant {
+        margin-top: 25px;
+
+        font-size: 14px;
+    }
+
+    .forBusnesUslugiList {
+        /* margin-top: 20px; */
+    }
     
 }

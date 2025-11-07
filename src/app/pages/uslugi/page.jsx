@@ -331,38 +331,75 @@ export default function Uslugi() {
 
 
             <div className="forBusinesWrapper">
+                <div className="uslugiHeadlineWrapper">
+                    <span className="uslugiHeadline">Для бизнеса</span>
+                </div>
+
                 <div className="forBusines">
-                    <div className="uslugiHeadlineWrapper">
-                        <span className="uslugiHeadline">Для бизнеса</span>
-                    </div>
                     
-                    <div className="forBusinesCol">
-                        <div className="forBusinesParagraphWrapper">
-                            <p className="forBusinesParagraph">
-                                Безопасность - это не статья расходов, а инвестиция в стабильность вашей компании.
-                                <span className="forBusinesNoProblem">Устраняем следующие проблемы</span>
-                            </p>
+                    <div className="forBusinesCol forBusinesTextContent">
+
+                        <div className="forBusinesHeader">
+                            <div className="forBusinesParagraphWrapper">
+                                <p className="forBusinesParagraph">
+                                    Безопасность - это не статья расходов, а инвестиция в стабильность вашей компании.
+                                </p>
+                            </div>
+                            
+                            <div className="forBusinesProblemWrapper">
+                                <p className="forBusinesProblems">
+                                    Устраняем следующие проблемы:
+                                    <span className="forBusinesNoProblem"> кражи</span>,
+                                    <span className="forBusinesNoProblem"> несанкционированный доступ в помещения</span>,
+                                    <span className="forBusinesNoProblem"> контроль сотрудников и посетителей</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="forBusinesFooter">
+                            <div className="fotBusinesGarantWrapper">
+                                <p className="fotBusinesGarant">
+                                    Гарантируем: минимальное вмешательство в рабочий процесс, соблюдение сроков и полное соответствие вашим требованиям
+                                </p>
+                            </div>
                         </div>
                         
-                        <div className="forBusinesProblems">
-                            <div className="forBusinesProblem">
-                                <img src="/images/uslugi/vor.svg" className="forBusinesProblemImg"/>
-                                <span className="forBusinesProblemTitle">Кражи</span>
-                            </div>
-
-                            <div className="forBusinesProblem">
-                                <img src="/images/uslugi/noexit.svg" className="forBusinesProblemImg"/>
-                                <span className="forBusinesProblemTitle">Несанкционированный доступ в помещения</span>
-                            </div>
-
-                            <div className="forBusinesProblem">
-                                <img src="/images/uslugi/done.svg" className="forBusinesProblemImg"/>
-                                <span className="forBusinesProblemTitle">Контроль сотрудников и посетителей</span>
-                            </div>
-                        </div>
                     </div>
 
                     <div className="forBusinesCol">
+                        <div className="forBusnesUslugiList">
+
+                            <div className="forBusnesUslugiItem">
+                                <div className="forBusnesUslugiItemHeaderWrapper">
+                                    <span className="forBusnesUslugiItemHeader">
+                                        Комплексные системы СКУД для офисов, магазинов и складов
+                                    </span>
+                                </div>
+
+                                <div className="forBusnesUslugiItemLinkWrapper">
+                                    <a className="forBusnesUslugiItemLink" href="#">Перейти</a>
+                                </div>
+
+                                <img src="/images/uslugi/uslugiSKUD.png" className="forBusnesUslugiItemImg"/>
+                            </div>
+
+                            <div className="forBusnesUslugiItem">
+                                <div className="forBusnesUslugiItemHeaderWrapper">
+                                    <span className="forBusnesUslugiItemHeader">
+                                        Системы видеонаблюдения для офисов, магазинов и складов
+                                    </span>
+                                </div>
+
+                                <div className="forBusnesUslugiItemLinkWrapper">
+                                    <a className="forBusnesUslugiItemLink" href="#">Узнать больше</a>
+                                </div>
+
+                                <img src="/images/uslugi/uslugiVideo.png" className="forBusnesUslugiItemImg"/>
+                            </div>
+
+                        </div>
+
+
                         
                     </div>
 

@@ -333,7 +333,7 @@ export default function Uslugi() {
             <div className="forBusinesWrapper">
                 <div className="forBusines">
                     <div className="uslugiHeadlineWrapper">
-                        <span className="uslugiHeadline">Для управляющих компаний и ТСЖ</span>
+                        <span className="uslugiHeadline">Для бизнеса</span>
                     </div>
                     
                     <div className="forBusinesCol">
@@ -352,12 +352,12 @@ export default function Uslugi() {
 
                             <div className="forBusinesProblem">
                                 <img src="/images/uslugi/noexit.svg" className="forBusinesProblemImg"/>
-                                <span className="forBusinesProblemTitle">несанкционированный доступ в помещения</span>
+                                <span className="forBusinesProblemTitle">Несанкционированный доступ в помещения</span>
                             </div>
 
                             <div className="forBusinesProblem">
                                 <img src="/images/uslugi/done.svg" className="forBusinesProblemImg"/>
-                                <span className="forBusinesProblemTitle">контроль сотрудников и посетителей</span>
+                                <span className="forBusinesProblemTitle">Контроль сотрудников и посетителей</span>
                             </div>
                         </div>
                     </div>

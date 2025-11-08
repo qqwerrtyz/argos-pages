@@ -468,6 +468,75 @@ export default function Uslugi() {
                     </div>
                 </div>
             </div>
+
+
+            <div className="uslugiFormTgWrapper">
+                <div className="uslugiFormTg">
+                    <div className="uslugiFormTgCol">
+
+                    </div>
+
+                    <div className="uslugiFormTgCol">
+                        <div className="uslugiFormTgQuestions">
+                            <div className="uslugiFormTgQuestion">
+                                <div className="uslugiFormTgQuestionBody">
+                                    <span className="uslugiFormTgQuestion">Какой тип объекта вас интересует?</span>
+                                </div>
+
+                                <div className="uslugiFormTgQuestionVariantWrapper">
+                                    <span className="uslugiFormTgQuestionVariant">Квартира</span>
+                                    <span className="uslugiFormTgQuestionVariant">Частный дом</span>
+                                    <span className="uslugiFormTgQuestionVariant">Офис</span>
+                                    <span className="uslugiFormTgQuestionVariant">Магазин</span>
+                                    <span className="uslugiFormTgQuestionVariant">Общественное помещение</span>
+                                    <span className="uslugiFormTgQuestionVariant">Склад</span>
+                                    <span className="uslugiFormTgQuestionVariant">Производство</span>
+                                    <span className="uslugiFormTgQuestionVariant">Строящийся объект</span>
+                                    <span className="uslugiFormTgQuestionVariant">Жилой дом</span>
+                                </div>
+                            </div>
+
+                            <div className="uslugiFormTgQuestion">
+                                <div className="uslugiFormTgQuestionBody">
+                                    <span className="uslugiFormTgQuestion">Какие системы безопасности вам нужны?</span>
+                                </div>
+
+                                <div className="uslugiFormTgQuestionVariantWrapper">
+                                    <span className="uslugiFormTgQuestionVariant">Видеонаблюдение</span>
+                                    <span className="uslugiFormTgQuestionVariant">Контроль доступа: СКУД</span>
+                                    <span className="uslugiFormTgQuestionVariant">Контроль доступа: домофоны</span>
+                                    <span className="uslugiFormTgQuestionVariant">Шлагбаумы</span>
+                                    <span className="uslugiFormTgQuestionVariant">Автоматика для ворот</span>
+                                    <span className="uslugiFormTgQuestionVariant">Комплексное решение под ключ</span>
+                         
+                                </div>
+                            </div>
+
+                            <div className="uslugiFormTgQuestion">
+                                <div className="uslugiFormTgQuestionBody">
+                                    <span className="uslugiFormTgQuestion">Ваш приоритет при выборе подрядчика?</span>
+                                </div>
+
+                                <div className="uslugiFormTgQuestionVariantWrapper">
+                                    <span className="uslugiFormTgQuestionVariant">Надежность и гарантии</span>
+                                    <span className="uslugiFormTgQuestionVariant">Стоимость решения</span>
+                                    <span className="uslugiFormTgQuestionVariant">Контроль доступа: домофоны</span>
+                                    <span className="uslugiFormTgQuestionVariant">Сроки реализации</span>
+                                    <span className="uslugiFormTgQuestionVariant">Сложность / Нестандартность задачи</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="uslugiFormTgSendWrapper">
+                            <a className="uslugiFormTgSend" href="#">Отправить</a>
+                        </div>
+                    </div>
+                    
+                    
+   
+
+                </div>
+            </div>
         </div>
     )
 }

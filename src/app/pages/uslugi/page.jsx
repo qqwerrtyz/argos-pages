@@ -473,7 +473,11 @@ export default function Uslugi() {
             <div className="uslugiFormTgWrapper">
                 <div className="uslugiFormTg">
                     <div className="uslugiFormTgCol">
+                        <div className="uslugiFormTgTextInfo">
+                            <div className="uslugiFormTgHeadlineWrapper">
 
+                            </div>
+                        </div>
                     </div>
 
                     <div className="uslugiFormTgCol">

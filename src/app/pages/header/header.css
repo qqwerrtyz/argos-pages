@@ -1,0 +1,184 @@
+.headerWrapper {
+    margin-bottom: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 40px;
+}
+
+
+.headerColLinkIcon {
+    margin: 10px 0;
+}
+
+.headerColLinkIconItem {
+    display: flex;
+    align-items: center;
+
+    padding: 5px 20px 5px 10px;
+
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+
+    background-color: #FFF8DB;
+
+    border-radius: 15px;
+
+    transition: .3s all;
+}
+
+.headerColLinkIconItem:hover {
+    background-color: #FFCE2D;
+}
+
+.headerColLinkIconImg {
+    width: 35px;
+
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+
+.headerColLinkItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerLogoImg {
+    width: 250px;
+}
+
+.headerColLinkItem {
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+
+.menuWrapper {
+    margin-top: 30px;
+}
+
+.menuItem {
+    width: 19%;
+
+    position: relative;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuItemTitleWrapper {
+    display: flex;
+}
+
+.menuItemTitle {
+    width: 100%;
+
+    padding: 12px 0;
+
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+
+    border: 3px solid #FFCE2D;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: .3s all;
+}
+
+.menuItemTitle:hover {
+    background-color: #FFCE2D;
+}
+
+
+.submenuWrapper {
+    position: absolute;
+    z-index: 10;
+    top: 120%;
+
+    width: 96%;
+    
+    
+
+    padding:  10px;
+
+    border-radius: 15px;
+
+    background-color: #FFCE2D;
+}
+
+.submenuItemWrapper {
+    margin: 10px 0;
+}
+
+.submenuItemLink {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.submenuItemLink:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1980px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .header {
+        flex-wrap: wrap;
+
+        padding: 0;
+    }
+
+    .socialCol {
+        width: 48%;
+        margin-top: 10px;
+        order: 2;
+    }
+    .logoCol {
+        width: 100%;
+        order: 0;
+    }
+    .aboutUsCol {
+        width: 48%;
+        margin-top: 10px;
+        order: 1;
+    }
+    
+    .headerLogoImg {
+        width: 130px;
+    }
+
+    .headerLogoSlogan {
+        font-size: 18px;
+    }
+
+    .headerColLinkIconImg {
+        width: 24px;
+    }
+
+    .headerColLinkIconText {
+        font-size: 14px;
+    }
+}

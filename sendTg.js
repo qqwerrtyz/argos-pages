@@ -1,0 +1,97 @@
+const uslugiFormTgQuestions = document.querySelector(".uslugiFormTgQuestions");
+// У нас всего 3 вопрос, соответсвенно
+// каждый элемент -- ответ на один вопрос
+// например [жилой дом, видеонаблюдение, надежность и гарантии]
+const result = [];
+const hilightElements = []
+
+uslugiFormTgQuestions.addEventListener("click", (event) => {
+    const variants = document.querySelectorAll(".uslugiFormTgQuestionVariant")
+    const variantClass = variants[0].className
+    const target = event.target.closest(".uslugiFormTgQuestionVariant")
+
+    // Делегирование событий. Если variantClassBoolean == false, то значит клик сделан
+    // не на нужный нам элемент (.uslugiFormTgQuestionVariant)
+    if (target.className !== variantClass) return;
+    const value = target.textContent.trim();
+
+    // Настраиваю в тупую:
+    // Если будут добавляться пункты, то и соответственно в коде нужно делать небольшие правки
+    // Далее поймете
+
+    // Преобразуем коллекцию вариантов ответа в массив
+    const arrVariants = Array.from(variants)
+
+    
+
+    // Получаем из массива индекс элемента, на который кликнули
+    // Он нам понадобится для проверки и внесения значений в result 
+    let index = null;
+    arrVariants.forEach((item, idx) => {
+        if (item.textContent.trim() === value) {
+            index = idx
+        }
+    })
+
+    // Эта функция добавялет значения элементов в массив result
+    // А так же подсвечивает элементы
+    // arrIndex -- это индекс в массиве (0, 1, 2) куда нужно сохранить элемент
+    // curntIndex -- это текущий индекс элемента из колекции variants
+    function addValueAndHilight(arrIndex, curntIndex) {
+        // Сохраняем значение
+        result[arrIndex] = value;
+        if (hilightElements[arrIndex]) {
+            hilightElements[arrIndex].classList.remove("uslugiFormTgQuestionVariantActive")
+        }
+
+        // Подсвечиваем текущий элемент
+        const hilightElement = variants[curntIndex]
+        hilightElement.classList.add("uslugiFormTgQuestionVariantActive");
+
+        // Добавляем подсвеченный элемент в массив подсвеченых элементов
+        hilightElements[arrIndex] = hilightElement
+        return
+    }
+
+    // то есть если кликнули на первые 8 элементов т.е. ответили на 1-й вопрос
+    if (index <= 8) {
+        addValueAndHilight(0, index)
+    
+    }
+
+    // то есть если кликнули c 9 по 14 элемент т.е. ответили на 2-й вопрос
+    if (index > 8 && index <= 14) {
+
+        addValueAndHilight(1, index)
+        
+    }
+
+    // то есть если кликнули c 15 и выше элемент т.е. ответили на 3-й вопрос
+    if (index > 14) {
+        addValueAndHilight(2, index)
+    }
+})
+
+
+function handleSend(event) {
+    event.preventDefault();
+
+
+    // Делаем проверку на то, что result заполнен полностью
+    if (result.length !== 3 || result.some(answer => !answer || answer === undefined || answer === null || answer === "")) {
+        alert("Что-то пошло не так :( Попробуйте пройти опрос снова, это займет не более 10 секунд.");
+        return;
+    }
+
+    // Создаем тело сообщения в тг
+    const message = `Здравствуйте! Вот мои результаты опроса: %0A` +
+                    `🏠 Тип объекта: ${result[0]}%0A` +
+                    `🔐 Системы безопасности: ${result[1]}%0A` +
+                    `🎯 Приоритет: ${result[2]}%0A%0A` +
+                    `Хочу получить консультацию!`;
+
+    // Вставляем сообщение в ссылку
+    const tgURL = `https://t.me/ArgosContact?text=${message}`;
+
+    window.open(tgURL, '_blank');
+}

@@ -826,8 +826,157 @@
 }
 
 .uslugiFormTgCol {
-    width: 48%;
+    width: 50%;
 }
+
+
+.uslugiFormTgCol {
+
+    height: 550px;
+
+}
+
+.uslugiFormTgTextInfo {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: relative;
+    z-index: 3;
+
+    padding: 40px;
+    box-sizing: border-box;
+
+    border-radius: 20px 0 0 20px;
+
+    background-image: url('/images/uslugi/uslugiTGBg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 50%;
+}
+
+.uslugiFormTgTextInfo:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+    
+    background: rgba(0, 0, 0, 0.35); 
+    
+    border-radius: 20px 0 0 20px;
+}
+
+.uslugiFormTgHeadline {
+    position: relative;
+    z-index: 1;
+
+    font-size: 50px;
+    color: #fff;
+}
+
+.uslugiFormTgParagraph {
+    position: relative;
+    z-index: 1;
+
+    font-size: 20px;
+    color: #f8c135;
+    font-weight: 600;
+}
+
+
+.uslugiFormTgQuestionsAndSend {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 30px;
+    box-sizing: border-box;
+
+    border-radius: 0 20px 20px 0;
+
+    background-color: #ffd000;
+}
+
+.uslugiFormTgQuestion {
+    margin: 10px 0;
+    padding: 10px 25px;
+    box-sizing: border-box;
+
+    background-color: #fff;
+
+    border-radius: 15px;
+}
+
+.uslugiFormTgQuestionBody {
+    display: inline-block;
+
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+
+}
+
+.uslugiFormTgQuestionTitle {
+    font-size: 30px;
+}
+
+.uslugiFormTgQuestionVariantWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 5px;
+}
+
+.uslugiFormTgQuestionVariant {
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+
+.uslugiFormTgSend {
+    width: 30%;
+
+    padding: 10px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+    text-decoration: none;
+    color: #333;
+
+    
+    border: 4px dashed #fff;
+    border-radius: 20px;
+
+    transition: .3s all;
+}
+
+.uslugiFormTgSend:hover {
+    background-color: rgba(255, 255, 255, .5);
+
+    transform: scale(1.05);
+}
+
+
+.uslugiFormTgSendIcon {
+    width: 36px;
+
+    margin-right: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+
+    background-color: #ffd000;
+    border-radius: 7px;
+}
+
+
 
 
 @media screen and (min-width: 1980px) {
@@ -1091,6 +1240,45 @@
     .forStroiCompUslugaParagprah {
         font-size: 54px;
     }
+
+
+
+    .uslugiFormTgCol {
+        height: 750px;
+    }
+
+    .uslugiFormTgHeadline {
+        font-size: 70px;
+    }
+
+    .uslugiFormTgParagraph {
+        font-size: 26px;
+    }
+
+    .uslugiFormTgQuestion {
+        padding: 30px ;
+    }
+
+    .uslugiFormTgQuestionBody {
+        margin-bottom: 20px;
+    }
+
+    .uslugiFormTgQuestionTitle {
+        font-size: 38px;
+    }
+
+    .uslugiFormTgQuestionVariant {
+        font-size: 22px;
+    }
+
+    .uslugiFormTgSend {
+        width: 48%;
+        font-size: 24px;
+    }
+
+    .uslugiFormTgSendIcon {
+        width: 44px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -1349,6 +1537,50 @@
         margin-top: 20px;
 
         text-align: center;
+    }
+
+
+
+
+
+
+    .uslugiFormTgCol {
+        height: 600px;
+    }
+
+    .uslugiFormTgTextInfo {
+        padding: 20px;
+    }
+
+    .uslugiFormTgHeadline {
+        font-size: 46px;
+    }
+
+
+
+    .uslugiFormTgQuestionsAndSend {
+        padding: 15px;
+    }
+
+    .uslugiFormTgQuestion {
+        padding: 10px 15px;
+    }
+
+    .uslugiFormTgQuestionTitle {
+        font-size: 24px;
+    }
+
+    .uslugiFormTgQuestionVariant {
+        font-size: 14px;
+    }
+
+    .uslugiFormTgSend {
+        width: 95%;
+    }
+
+    .uslugiFormTgSend {
+        padding: 3px 0;
+        font-size: 20px;
     }
 }
 
@@ -1680,5 +1912,84 @@
 
     .forStroiCompUslugaParagprah {
         font-size: 28px;
+    }
+
+
+
+
+    .uslugiFormTgWrapper {
+        margin-top: 60px;
+    }
+
+    .uslugiFormTg {
+        flex-direction: column;
+    }
+
+    .uslugiFormTgCol {
+        width: 100%;
+        height: auto;
+    }
+
+    .uslugiFormTgTextInfo {
+        padding: 15px;
+        border-radius: 20px 20px 0 0;
+
+        height: 250px;
+    }
+
+    .uslugiFormTgTextInfo:before {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .uslugiFormTgHeadline {
+        font-size: 30px;
+    }
+
+    .uslugiFormTgParagraph {
+        margin: 0;
+
+        font-size: 16px;
+    }
+
+
+    .uslugiFormTgQuestionsAndSend {
+        padding: 15px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .uslugiFormTgQuestion {
+        text-align: center;
+    }
+
+    .uslugiFormTgQuestionBody {
+        margin-bottom: 20px;
+    }
+
+    .uslugiFormTgQuestionTitle {
+        font-size: 24px;
+    }
+
+
+    .uslugiFormTgQuestionVariantWrapper {
+        justify-content: center;
+    }
+
+    .uslugiFormTgQuestionVariant {
+        font-size: 14px;
+    }
+
+    .uslugiFormTgSendWrapper {
+        display: flex;
+        justify-content: center;
+
+        margin-top: 30px;
+    }
+
+    .uslugiFormTgSend {
+        width: 70%;
+
+        padding: 5px 0;
+
+        font-size: 18px;
     }
 }
